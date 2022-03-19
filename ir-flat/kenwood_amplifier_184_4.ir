@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+#
+name: MODE
+type: parsed
+protocol: NEC
+address: b8 00 00 00
+command: 9d 00 00 00

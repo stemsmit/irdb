@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+#
+name: DOCK STOP
+type: parsed
+protocol: NEC
+address: d2 00 00 00
+command: c7 00 00 00

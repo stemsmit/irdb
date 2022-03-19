@@ -1,0 +1,28 @@
+{
+  "name": "irdb",
+  "version": "1.0.0",
+  "description": "![ir](https://cloud.githubusercontent.com/assets/2480569/9023330/cc63e7fe-3897-11e5-94cb-8cb145971fd2.png)",
+  "main": "index.js",
+  "scripts": {
+    "convert:inplace": "node index.js",
+    "convert:dir": "node index.js -output ir",
+    "convert:flat": "node index.js -output ir-flat -flat",
+    "convert": "npm run convert:inplace && npm run convert:dir && npm run convert:flat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stemsmit/irdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/probonopd/irdb/issues"
+  },
+  "homepage": "https://github.com/probonopd/irdb#readme",
+  "dependencies": {
+    "glob": "^7.2.0",
+    "lodash": "^4.17.21",
+    "rename": "^1.0.4",
+    "yargs": "^17.3.1"
+  }
+}

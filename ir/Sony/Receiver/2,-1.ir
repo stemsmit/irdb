@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+#
+name: CURSER ENTER
+type: parsed
+protocol: Sony12
+address: 02 00 00 00
+command: 51 00 00 00

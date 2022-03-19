@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+#
+name: FORWARD 1
+type: parsed
+protocol: NECx2
+address: 02 00 00 00
+command: 86 00 00 00
+#
+name: FORWARD 3
+type: parsed
+protocol: NECx2
+address: 02 00 00 00
+command: 88 00 00 00
+#
+name: REVERSE 3
+type: parsed
+protocol: NECx2
+address: 02 00 00 00
+command: 89 00 00 00

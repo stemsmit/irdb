@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+#
+name: MUTE
+type: parsed
+protocol: Mitsubishi
+address: 47 00 00 00
+command: 32 00 00 00
