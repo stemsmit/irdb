@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "convert:inplace": "node index.js",
-    "convert:dir": "node index.js -output ir",
-    "convert:flat": "node index.js -output ir-flat -flat",
+    "convert:dir": "node index.js --output ir",
+    "convert:flat": "node index.js --output ir-flat --flat",
     "convert": "npm run convert:inplace && npm run convert:dir && npm run convert:flat"
   },
   "repository": {
