@@ -4,6 +4,34 @@
 
 One of the largest crowd-sourced, manufacturer-independent databases of infrared remote control codes on the web, and aspiring to become the most comprehensive and most accurate one. Think of it as the "Wikipedia of infrared remote control codes".
 
+## IR Filetype conversion
+
+Requires [Node.js](https://nodejs.org/en/)
+
+After cloning the repo run `npm install` at the repo root directory.
+
+You can convert the CSV files using any of the following commands:
+
+`npm run convert:inplace`
+
+Converts all `*.csv` files to `*.ir` and puts them in the same directory as the csv file.
+
+`npm run convert:dir`
+
+Converts all `*.csv` files to `*.ir` and outputs them to the top level `ir` directory but with the same nested path from the `codes` directory.
+
+`npm run convert:flat`
+
+Converts all `*.csv` files to `*.ir` and outputs them to the top level `ir-flat` directory and their nested paths values up to the extension are converted to snake case. This provides a flat file structure for easy copy/paste to flipperzero devices.
+
+`npm run convert`
+
+Runs all of the above commands in succession.
+
+`node index.js --file relativeToRepoRootPath/my-ir-file.csv --output relativeToRepoRootPath/`
+
+Converts a single file and outputs it to the specified output path.
+
 ## Usage
 
 This database contains infrared remote control codes in a very space-efficient way, using protocol, device, subdevice, function notation. Using this information, you can render signals to raw timings, Pronto Hex, or other formats using software like [IrScrutinizer](https://github.com/bengtmartensson/harctoolboxbundle) or [MakeHex](https://github.com/probonopd/MakeHex).
