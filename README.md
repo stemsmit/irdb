@@ -6,6 +6,8 @@ One of the largest crowd-sourced, manufacturer-independent databases of infrared
 
 ## IR Filetype conversion
 
+Requires [Node.js](https://nodejs.org/en/)
+
 You can convert the CSV files using any of the following commands:
 
 `npm run convert:inplace`
