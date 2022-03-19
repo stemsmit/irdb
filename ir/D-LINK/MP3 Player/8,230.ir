@@ -9,7 +9,7 @@ command: 10 00 00 00
 #
 name: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 08 00 00 00
 command: 11 00 00 00
 #
@@ -27,19 +27,19 @@ command: 13 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 08 00 00 00
 command: 14 00 00 00
 #
 name: CURSOR ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 08 00 00 00
 command: 15 00 00 00
 #
 name: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 08 00 00 00
 command: 16 00 00 00
 #
@@ -75,7 +75,7 @@ command: 1c 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 08 00 00 00
 command: 1d 00 00 00
 #

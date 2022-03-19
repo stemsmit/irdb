@@ -3,6 +3,6 @@ Version: 1
 #
 name: MUTE
 type: parsed
-protocol: Mitsubishi
+protocol: NEC
 address: 47 00 00 00
 command: 32 00 00 00

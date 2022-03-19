@@ -33,7 +33,7 @@ command: 54 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 1a 00 00 00
 command: 54 00 00 00
 #
@@ -45,7 +45,7 @@ command: 55 00 00 00
 #
 name: POWER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 1a 00 00 00
 command: 55 00 00 00
 #

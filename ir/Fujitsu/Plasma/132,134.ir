@@ -3,6 +3,6 @@ Version: 1
 #
 name: ZOOM 2
 type: parsed
-protocol: Fujitsu
+protocol: NEC
 address: 84 00 00 00
 command: 16 00 00 00

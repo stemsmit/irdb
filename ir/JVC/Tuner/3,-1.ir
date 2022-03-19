@@ -3,18 +3,18 @@ Version: 1
 #
 name: VIDEO 2
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 03 00 00 00
 command: 12 00 00 00
 #
 name: VIDEO 3
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 03 00 00 00
 command: 14 00 00 00
 #
 name: TV POWER
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 03 00 00 00
 command: 17 00 00 00

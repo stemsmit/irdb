@@ -3,18 +3,18 @@ Version: 1
 #
 name: PRESET UP
 type: parsed
-protocol: Panasonic
+protocol: NEC
 address: a0 00 00 00
 command: 34 00 00 00
 #
 name: PRESET DOWN
 type: parsed
-protocol: Panasonic
+protocol: NEC
 address: a0 00 00 00
 command: 35 00 00 00
 #
 name: TUNER
 type: parsed
-protocol: Panasonic
+protocol: NEC
 address: a0 00 00 00
 command: a4 00 00 00

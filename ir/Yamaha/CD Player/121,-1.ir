@@ -291,7 +291,7 @@ command: 0d 00 00 00
 #
 name: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 10 00 00 00
 #
@@ -315,7 +315,7 @@ command: 12 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 13 00 00 00
 #
@@ -327,7 +327,7 @@ command: 13 00 00 00
 #
 name: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 14 00 00 00
 #
@@ -339,7 +339,7 @@ command: 14 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 15 00 00 00
 #
@@ -351,7 +351,7 @@ command: 15 00 00 00
 #
 name: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 16 00 00 00
 #
@@ -363,7 +363,7 @@ command: 16 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 17 00 00 00
 #
@@ -375,7 +375,7 @@ command: 17 00 00 00
 #
 name: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 18 00 00 00
 #
@@ -621,7 +621,7 @@ command: 4e 00 00 00
 #
 name: DISC UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 4f 00 00 00
 #
@@ -675,7 +675,7 @@ command: 4f 00 00 00
 #
 name: DISC DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 50 00 00 00
 #
@@ -729,7 +729,7 @@ command: 50 00 00 00
 #
 name: +1 DISC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 51 00 00 00
 #
@@ -771,7 +771,7 @@ command: 56 00 00 00
 #
 name: STOP
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 79 00 00 00
 command: 56 00 00 00
 #

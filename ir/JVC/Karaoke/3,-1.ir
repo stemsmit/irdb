@@ -3,12 +3,12 @@ Version: 1
 #
 name: KEY B
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 03 00 00 00
 command: 18 00 00 00
 #
 name: KEY #
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 03 00 00 00
 command: 19 00 00 00

@@ -3,12 +3,12 @@ Version: 1
 #
 name: CHANEL UP
 type: parsed
-protocol: Sony12
+protocol: NEC
 address: 0b 00 00 00
 command: 10 00 00 00
 #
 name: CHANEL DN
 type: parsed
-protocol: Sony12
+protocol: NEC
 address: 0b 00 00 00
 command: 11 00 00 00

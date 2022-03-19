@@ -15,7 +15,7 @@ command: 00 00 00 00
 #
 name: Z2 CHAN +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
@@ -39,7 +39,7 @@ command: 01 00 00 00
 #
 name: Z2 CHAN-
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
@@ -63,13 +63,13 @@ command: 02 00 00 00
 #
 name: VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: Z2 VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
@@ -87,13 +87,13 @@ command: 03 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
 name: Z2 VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #

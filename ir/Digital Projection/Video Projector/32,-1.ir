@@ -363,7 +363,7 @@ command: 23 00 00 00
 #
 name: MEMORY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 20 00 00 00
 command: 23 00 00 00
 #

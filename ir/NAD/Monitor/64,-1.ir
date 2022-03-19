@@ -69,7 +69,7 @@ command: 0c 00 00 00
 #
 name: AUDIO-RESET
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 40 00 00 00
 command: 0c 00 00 00
 #

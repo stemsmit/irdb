@@ -81,7 +81,7 @@ command: 4c 00 00 00
 #
 name: M
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b6 00 00 00
 command: 4d 00 00 00
 #
@@ -189,19 +189,19 @@ command: 83 00 00 00
 #
 name: $
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b6 00 00 00
 command: 84 00 00 00
 #
 name: (
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b6 00 00 00
 command: 88 00 00 00
 #
 name: )
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b6 00 00 00
 command: 89 00 00 00
 #
@@ -219,7 +219,7 @@ command: 8b 00 00 00
 #
 name: _
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b6 00 00 00
 command: 8d 00 00 00
 #

@@ -3,36 +3,36 @@ Version: 1
 #
 name: CASSETTE FF >>
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: a1 00 00 00
 command: 10 00 00 00
 #
 name: CASSETTE REW <<
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: a1 00 00 00
 command: 11 00 00 00
 #
 name: CASSETTE POWER
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: a1 00 00 00
 command: 12 00 00 00
 #
 name: CASSETTE STOP []
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: a1 00 00 00
 command: 16 00 00 00
 #
 name: CASSETTE PLAY >
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: a1 00 00 00
 command: 17 00 00 00
 #
 name: CASSETTE PAUSE 
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: a1 00 00 00
 command: 18 00 00 00

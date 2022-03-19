@@ -45,7 +45,7 @@ command: 28 00 00 00
 #
 name: ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 40 00 00 00
 command: 28 00 00 00
 #
@@ -93,7 +93,7 @@ command: 6a 00 00 00
 #
 name: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 40 00 00 00
 command: 70 00 00 00
 #
@@ -153,7 +153,7 @@ command: a8 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 40 00 00 00
 command: b0 00 00 00
 #
@@ -183,7 +183,7 @@ command: c8 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 40 00 00 00
 command: d0 00 00 00
 #

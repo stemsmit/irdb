@@ -3,18 +3,18 @@ Version: 1
 #
 name: UP
 type: parsed
-protocol: Akai
+protocol: NEC
 address: 02 00 00 00
 command: 21 00 00 00
 #
 name: DOWN
 type: parsed
-protocol: Akai
+protocol: NEC
 address: 02 00 00 00
 command: 22 00 00 00
 #
 name: STOP
 type: parsed
-protocol: Akai
+protocol: NEC
 address: 02 00 00 00
 command: 25 00 00 00

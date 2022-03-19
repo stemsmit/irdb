@@ -3,6 +3,6 @@ Version: 1
 #
 name: CD
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 14 00 00 00
 command: 3f 00 00 00

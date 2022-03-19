@@ -3,12 +3,12 @@ Version: 1
 #
 name: SELECT
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 0f 00 00 00
 command: 11 00 00 00
 #
 name: MULTISCREEN SELECT
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 0f 00 00 00
 command: 11 00 00 00

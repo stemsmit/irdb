@@ -3,6 +3,6 @@ Version: 1
 #
 name: AV
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 0f 00 00 00
 command: 1a 00 00 00

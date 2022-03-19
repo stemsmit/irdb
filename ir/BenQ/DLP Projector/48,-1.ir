@@ -57,7 +57,7 @@ command: 0f 00 00 00
 #
 name: POWER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 30 00 00 00
 command: 18 00 00 00
 #

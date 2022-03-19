@@ -3,6 +3,6 @@ Version: 1
 #
 name: TV/VCR
 type: parsed
-protocol: Zenith
+protocol: NEC
 address: 07 00 00 00
 command: 2c 00 00 00

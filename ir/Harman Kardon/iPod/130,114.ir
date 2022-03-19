@@ -9,7 +9,7 @@ command: f0 00 00 00
 #
 name: PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: f1 00 00 00
 #
@@ -21,30 +21,30 @@ command: f2 00 00 00
 #
 name: FAST FOWARD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: f3 00 00 00
 #
 name: MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: f4 00 00 00
 #
 name: SELECT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: f5 00 00 00
 #
 name: SCROLL FOWARD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: f6 00 00 00
 #
 name: SCROLL BACK
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: f7 00 00 00

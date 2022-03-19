@@ -1269,97 +1269,97 @@ command: 65 00 00 00
 #
 name: VCR2 JOG/SHUTTLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 68 00 00 00
 #
 name: VCR2 SHUTTLE FWD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 75 00 00 00
 #
 name: VCR2 SHUT FWD (F.S.)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 75 00 00 00
 #
 name: VCR2 SHUT FFWD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 75 00 00 00
 #
 name: CAM SHUT FWD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 75 00 00 00
 #
 name: VCR2 SHU.FWD(F.S)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 75 00 00 00
 #
 name: VCR2 SHUTTLE REW
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 76 00 00 00
 #
 name: VCR2 SHUT REV (F.S.)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 76 00 00 00
 #
 name: VCR2 SHUT REV <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 76 00 00 00
 #
 name: CAM SHUT REV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 76 00 00 00
 #
 name: VCR2 SHU.REV(F.S)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 76 00 00 00
 #
 name: VCR2 JOG FWD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 7d 00 00 00
 #
 name: VCR2 JOG/SHU.FORWARD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 7d 00 00 00
 #
 name: VCR2 JOG REW
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 7e 00 00 00
 #
 name: VCR2 JOG REV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 7e 00 00 00
 #
 name: VCR2 JOG/SHU.REVERSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 60 00 00 00
 command: 7e 00 00 00
 #

@@ -3,37 +3,37 @@ Version: 1
 #
 name: PRESET +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: PRESET >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: PRESET -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: PRESET <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: OUTPUT LEVEL ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: OUTPUT LEVEL V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
@@ -159,31 +159,31 @@ command: 1e 00 00 00
 #
 name: TIMER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 40 00 00 00
 #
 name: TIMER PRESET +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 40 00 00 00
 #
 name: TIMER PRESET -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 41 00 00 00
 #
 name: TUNING +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: TUNING -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #

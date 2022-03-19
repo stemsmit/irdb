@@ -3,6 +3,6 @@ Version: 1
 #
 name: LIMBIK NEXT (5 KEY)
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 04 00 00 00
 command: 05 00 00 00

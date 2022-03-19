@@ -15,7 +15,7 @@ command: 20 00 00 00
 #
 name: OPEN/CLOSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 20 00 00 00
 #
@@ -33,7 +33,7 @@ command: 21 00 00 00
 #
 name: ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 21 00 00 00
 #
@@ -57,7 +57,7 @@ command: 23 00 00 00
 #
 name: TITLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 23 00 00 00
 #
@@ -81,7 +81,7 @@ command: 24 00 00 00
 #
 name: RETURN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 25 00 00 00
 #
@@ -105,7 +105,7 @@ command: 26 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 26 00 00 00
 #
@@ -153,7 +153,7 @@ command: 28 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 28 00 00 00
 #
@@ -195,7 +195,7 @@ command: 2a 00 00 00
 #
 name: ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2a 00 00 00
 #
@@ -213,7 +213,7 @@ command: 2c 00 00 00
 #
 name: PAUSE
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 2c 00 00 00
 #
@@ -225,7 +225,7 @@ command: 2d 00 00 00
 #
 name: STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2d 00 00 00
 #
@@ -237,25 +237,25 @@ command: 2e 00 00 00
 #
 name: SCAN <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2e 00 00 00
 #
 name: SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2e 00 00 00
 #
 name: SEARCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2e 00 00 00
 #
 name: SEARCH <<
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 2e 00 00 00
 #
@@ -267,7 +267,7 @@ command: 2e 00 00 00
 #
 name: REWIND
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2e 00 00 00
 #
@@ -279,25 +279,25 @@ command: 2f 00 00 00
 #
 name: SCAN >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2f 00 00 00
 #
 name: SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2f 00 00 00
 #
 name: SEARCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2f 00 00 00
 #
 name: SEARCH >>
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 2f 00 00 00
 #
@@ -309,7 +309,7 @@ command: 2f 00 00 00
 #
 name: FAST FOWARD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 2f 00 00 00
 #
@@ -327,7 +327,7 @@ command: 30 00 00 00
 #
 name: PREVIOUS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 30 00 00 00
 #
@@ -345,7 +345,7 @@ command: 31 00 00 00
 #
 name: NEXT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 31 00 00 00
 #
@@ -369,7 +369,7 @@ command: 35 00 00 00
 #
 name: AUDIO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 35 00 00 00
 #
@@ -381,7 +381,7 @@ command: 36 00 00 00
 #
 name: ANGLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 36 00 00 00
 #
@@ -405,7 +405,7 @@ command: 39 00 00 00
 #
 name: STATUS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 39 00 00 00
 #
@@ -453,7 +453,7 @@ command: 3e 00 00 00
 #
 name: ZOOM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 3e 00 00 00
 #
@@ -519,7 +519,7 @@ command: 62 00 00 00
 #
 name: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 62 00 00 00
 #
@@ -531,7 +531,7 @@ command: 63 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 63 00 00 00
 #
@@ -543,7 +543,7 @@ command: 64 00 00 00
 #
 name: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 64 00 00 00
 #
@@ -555,7 +555,7 @@ command: 65 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 65 00 00 00
 #
@@ -567,7 +567,7 @@ command: 66 00 00 00
 #
 name: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 66 00 00 00
 #
@@ -579,7 +579,7 @@ command: 67 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 67 00 00 00
 #
@@ -591,7 +591,7 @@ command: 68 00 00 00
 #
 name: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 68 00 00 00
 #
@@ -603,7 +603,7 @@ command: 69 00 00 00
 #
 name: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 69 00 00 00
 #
@@ -615,7 +615,7 @@ command: 6a 00 00 00
 #
 name: PROG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 6a 00 00 00
 #
@@ -651,7 +651,7 @@ command: 6e 00 00 00
 #
 name: REPEAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 6e 00 00 00
 #
@@ -669,7 +669,7 @@ command: 6f 00 00 00
 #
 name: A-B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 6f 00 00 00
 #
@@ -699,7 +699,7 @@ command: b3 00 00 00
 #
 name: DIMMER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: b3 00 00 00
 #
@@ -723,6 +723,6 @@ command: bb 00 00 00
 #
 name: HDMI
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: bc 00 00 00

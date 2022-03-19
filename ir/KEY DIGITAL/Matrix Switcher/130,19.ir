@@ -261,7 +261,7 @@ command: 52 00 00 00
 #
 name: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 52 00 00 00
 #
@@ -273,7 +273,7 @@ command: 53 00 00 00
 #
 name: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 53 00 00 00
 #
@@ -285,7 +285,7 @@ command: 54 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 54 00 00 00
 #
@@ -297,7 +297,7 @@ command: 55 00 00 00
 #
 name: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 55 00 00 00
 #
@@ -465,7 +465,7 @@ command: a2 00 00 00
 #
 name: POWER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: a3 00 00 00
 #
@@ -531,13 +531,13 @@ command: ad 00 00 00
 #
 name: BASS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: ae 00 00 00
 #
 name: MIDDLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: af 00 00 00
 #
@@ -561,7 +561,7 @@ command: b2 00 00 00
 #
 name: R2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: b3 00 00 00
 #
@@ -579,25 +579,25 @@ command: b5 00 00 00
 #
 name: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: da 00 00 00
 #
 name: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: db 00 00 00
 #
 name: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: dc 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: dd 00 00 00
 #
@@ -615,7 +615,7 @@ command: df 00 00 00
 #
 name: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: e0 00 00 00
 #

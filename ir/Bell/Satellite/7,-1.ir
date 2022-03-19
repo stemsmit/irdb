@@ -3,6 +3,6 @@ Version: 1
 #
 name: POWER OFF
 type: parsed
-protocol: RCA
+protocol: NEC
 address: 07 00 00 00
 command: 3b 00 00 00

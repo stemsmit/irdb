@@ -63,7 +63,7 @@ command: 0d 00 00 00
 #
 name: STEREO/MONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: c0 00 00 00
 command: 0e 00 00 00
 #
@@ -81,7 +81,7 @@ command: 11 00 00 00
 #
 name: SUB ON/OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: c0 00 00 00
 command: 12 00 00 00
 #
@@ -93,7 +93,7 @@ command: 13 00 00 00
 #
 name: STUMM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: c0 00 00 00
 command: 14 00 00 00
 #
@@ -129,7 +129,7 @@ command: 1b 00 00 00
 #
 name: TUNER AM/FM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: c0 00 00 00
 command: 1c 00 00 00
 #
@@ -201,7 +201,7 @@ command: 27 00 00 00
 #
 name: INPUT MODE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: c0 00 00 00
 command: 60 00 00 00
 #

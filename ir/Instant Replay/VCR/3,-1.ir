@@ -3,18 +3,18 @@ Version: 1
 #
 name: ADD/DLT
 type: parsed
-protocol: Panasonic_Old
+protocol: NEC
 address: 03 00 00 00
 command: 1d 00 00 00
 #
 name: ADD/DELETE
 type: parsed
-protocol: Panasonic_Old
+protocol: NEC
 address: 03 00 00 00
 command: 1d 00 00 00
 #
 name: PROG
 type: parsed
-protocol: Panasonic_Old
+protocol: NEC
 address: 03 00 00 00
 command: 2c 00 00 00

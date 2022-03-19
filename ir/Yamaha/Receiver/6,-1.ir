@@ -3,12 +3,12 @@ Version: 1
 #
 name: CHANNEL +
 type: parsed
-protocol: Akai
+protocol: NEC
 address: 06 00 00 00
 command: 6c 00 00 00
 #
 name: CHANNEL -
 type: parsed
-protocol: Akai
+protocol: NEC
 address: 06 00 00 00
 command: 6d 00 00 00

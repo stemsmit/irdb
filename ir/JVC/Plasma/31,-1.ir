@@ -3,18 +3,18 @@ Version: 1
 #
 name: POWER OFF
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 1f 00 00 00
 command: da 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 1f 00 00 00
 command: dd 00 00 00
 #
 name: COMPONENT
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 1f 00 00 00
 command: e1 00 00 00

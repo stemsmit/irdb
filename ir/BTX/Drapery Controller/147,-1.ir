@@ -3,6 +3,6 @@ Version: 1
 #
 name: 3 CLOSE
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 93 00 00 00
 command: 6c 00 00 00

@@ -3,6 +3,6 @@ Version: 1
 #
 name: VCR REC (PANEL)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 61 00 00 00
 command: 14 00 00 00

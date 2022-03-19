@@ -3,6 +3,6 @@ Version: 1
 #
 name: SIRIUS: A
 type: parsed
-protocol: NEC1-f16
+protocol: NEC
 address: 00 00 00 00
 command: 01 00 00 00

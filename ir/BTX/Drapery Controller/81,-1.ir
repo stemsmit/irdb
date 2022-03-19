@@ -3,6 +3,6 @@ Version: 1
 #
 name: 1 OPEN
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 51 00 00 00
 command: ae 00 00 00

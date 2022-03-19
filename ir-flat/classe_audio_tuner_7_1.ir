@@ -3,36 +3,36 @@ Version: 1
 #
 name: MUTE T0
 type: parsed
-protocol: RECS80
+protocol: NEC
 address: 07 00 00 00
 command: 00 00 00 00
 #
 name: MUTE T1
 type: parsed
-protocol: RECS80
+protocol: NEC
 address: 07 00 00 00
 command: 00 00 00 00
 #
 name: VOL+ T0
 type: parsed
-protocol: RECS80
+protocol: NEC
 address: 07 00 00 00
 command: 08 00 00 00
 #
 name: VOL+ T1
 type: parsed
-protocol: RECS80
+protocol: NEC
 address: 07 00 00 00
 command: 08 00 00 00
 #
 name: VOL- T0
 type: parsed
-protocol: RECS80
+protocol: NEC
 address: 07 00 00 00
 command: 09 00 00 00
 #
 name: VOL- T1
 type: parsed
-protocol: RECS80
+protocol: NEC
 address: 07 00 00 00
 command: 09 00 00 00

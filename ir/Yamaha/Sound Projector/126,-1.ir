@@ -75,7 +75,7 @@ command: 6a 00 00 00
 #
 name: INPUT MODE TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: 8d 00 00 00
 #
@@ -279,7 +279,7 @@ command: cc 00 00 00
 #
 name: NIGHT MODE MUS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: cf 00 00 00
 #
@@ -321,13 +321,13 @@ command: d9 00 00 00
 #
 name: INPUT MODE DTS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: da 00 00 00
 #
 name: MUTE -20DB
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: df 00 00 00
 #
@@ -339,7 +339,7 @@ command: df 00 00 00
 #
 name: DSP CONC. HALL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: e1 00 00 00
 #
@@ -351,7 +351,7 @@ command: e1 00 00 00
 #
 name: DSP JAZZ CLUB
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: ec 00 00 00
 #
@@ -363,7 +363,7 @@ command: ec 00 00 00
 #
 name: DSP MUSIC VIDEO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: f3 00 00 00
 #
@@ -375,7 +375,7 @@ command: f3 00 00 00
 #
 name: DSP SPORTS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: f8 00 00 00
 #
@@ -387,7 +387,7 @@ command: f8 00 00 00
 #
 name: DSP SPECTACLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: f9 00 00 00
 #
@@ -399,7 +399,7 @@ command: f9 00 00 00
 #
 name: DSP SCI-FI
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: fa 00 00 00
 #
@@ -411,7 +411,7 @@ command: fa 00 00 00
 #
 name: DSP ADVENTURE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7e 00 00 00
 command: fb 00 00 00
 #

@@ -507,13 +507,13 @@ command: b2 00 00 00
 #
 name: DVI RGB-PC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d1 00 00 00
 command: b9 00 00 00
 #
 name: DVI RGB-TV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d1 00 00 00
 command: ba 00 00 00
 #
@@ -699,7 +699,7 @@ command: d3 00 00 00
 #
 name: DVI
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d1 00 00 00
 command: d4 00 00 00
 #

@@ -3,6 +3,6 @@ Version: 1
 #
 name: MUTE
 type: parsed
-protocol: RCA(Old)
+protocol: NEC
 address: 0f 00 00 00
 command: 3f 00 00 00

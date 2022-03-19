@@ -3,6 +3,6 @@ Version: 1
 #
 name: 7
 type: parsed
-protocol: DirecTV
+protocol: NEC
 address: 08 00 00 00
 command: 00 00 00 00

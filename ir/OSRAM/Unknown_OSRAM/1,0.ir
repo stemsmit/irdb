@@ -3,6 +3,6 @@ Version: 1
 #
 name: KEY_OK
 type: parsed
-protocol: F12
+protocol: NEC
 address: 01 00 00 00
 command: 42 00 00 00

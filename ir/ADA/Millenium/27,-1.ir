@@ -3,6 +3,6 @@ Version: 1
 #
 name: TEST
 type: parsed
-protocol: Panasonic_Old
+protocol: NEC
 address: 1b 00 00 00
 command: 10 00 00 00

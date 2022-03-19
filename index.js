@@ -4,6 +4,7 @@ const path = require('path');
 const sc = require('lodash/snakeCase');
 const cap = require('lodash/capitalize');
 const times = require('lodash/times');
+const uniq = require('lodash/uniq');
 const argv = require('yargs').argv;
 
 function convertToIr(fileGlob){
@@ -32,13 +33,16 @@ function getOutputLocation(filePath){
     return filePath;
 }
 
-function numToHex(num){
+function numToHex(num, returnByteCount = false){
     let _num = parseInt(num);
     let _hexNum = _num.toString(16);
     if(_hexNum.length < 2){
         _hexNum = "0" + _hexNum;
     }
     let _hexNumSplit = _hexNum.split(" ");
+    if(returnByteCount){
+        return _hexNumSplit.length;
+    }
     const suffixZeros = 4 - _hexNumSplit.length;
     times(suffixZeros, () => _hexNumSplit.push("00"))
 
@@ -52,15 +56,22 @@ function normalizeName(name){
     return cap(sc(_name))
 }
 
-function normalizeProtocol(protocol){
+function normalizeProtocol(protocol, byteCount){
     const translationTable = {
         "NEC1": "NEC",
         "NECx1": "NEC",
     }
 
-    return translationTable[protocol] || protocol;
+    const byteTranslation = [
+        "NEC",
+        "NECext",
+        "Samsung32",
+    ]
+
+    return translationTable[protocol] || byteTranslation[byteCount - 1] || protocol;
 }
 
+let protocols = [];
 function fileToIr(filePath){
     if(fs.existsSync(filePath)){
         const fileText = fs.readFileSync(filePath, 'utf8');
@@ -73,11 +84,13 @@ function fileToIr(filePath){
             if(name !== "" && typeof protocol !== "undefined" && !Number.isNaN(parseInt(device))){
                 const normalizedName = normalizeName(name);
                 if(!namesUsed[normalizedName]){
-                    const irLine = `#\nname: ${normalizedName}\ntype: parsed\nprotocol: ${normalizeProtocol(protocol)}\naddress: ${numToHex(device)}\ncommand: ${numToHex(fn)}\n`;
+                    protocols = [...protocols, protocol];
+                    const irLine = `#\nname: ${normalizedName}\ntype: parsed\nprotocol: ${normalizeProtocol(protocol, numToHex(device, true))}\naddress: ${numToHex(device)}\ncommand: ${numToHex(fn)}\n`;
                     irLines.push(irLine);
                 }
             }
         }
+        protocols = uniq(protocols);
         return `Filetype: IR signals file\nVersion: 1\n${irLines.join("")}`;
     }
     return "";

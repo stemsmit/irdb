@@ -3,6 +3,6 @@ Version: 1
 #
 name: INPUT
 type: parsed
-protocol: Sony12
+protocol: NEC
 address: 01 00 00 00
 command: 25 00 00 00

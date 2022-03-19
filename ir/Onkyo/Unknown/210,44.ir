@@ -3,13 +3,13 @@ Version: 1
 #
 name: SEARCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: SEARCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #

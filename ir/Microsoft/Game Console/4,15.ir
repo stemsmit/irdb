@@ -3,12 +3,12 @@ Version: 1
 #
 name: POWER OFF
 type: parsed
-protocol: MCE
+protocol: NEC
 address: 04 00 00 00
 command: 0c 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: MCE
+protocol: NEC
 address: 04 00 00 00
 command: 0c 00 00 00

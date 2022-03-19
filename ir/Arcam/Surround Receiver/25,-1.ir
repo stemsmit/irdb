@@ -3,24 +3,24 @@ Version: 1
 #
 name: TUNER + A
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 19 00 00 00
 command: 20 00 00 00
 #
 name: TUNER + B
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 19 00 00 00
 command: 20 00 00 00
 #
 name: TUNER - A
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 19 00 00 00
 command: 21 00 00 00
 #
 name: TUNER - B
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 19 00 00 00
 command: 21 00 00 00

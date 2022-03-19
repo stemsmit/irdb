@@ -3,25 +3,25 @@ Version: 1
 #
 name: CD STOP []
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 01 00 00 00
 #
 name: CD_STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 01 00 00 00
 #
 name: CD STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 01 00 00 00
 #
 name: CD STOP (RDS DISP)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 01 00 00 00
 #
@@ -33,25 +33,25 @@ command: 01 00 00 00
 #
 name: CD PLAY >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 02 00 00 00
 #
 name: CD_PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 02 00 00 00
 #
 name: CD PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 02 00 00 00
 #
 name: CD PLAY (AF)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 02 00 00 00
 #
@@ -63,43 +63,43 @@ command: 02 00 00 00
 #
 name: CD PAUSE 
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 03 00 00 00
 #
 name: CD_PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 03 00 00 00
 #
 name: CD MUTE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 03 00 00 00
 #
 name: CD REC/PAUSE (PTY)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 03 00 00 00
 #
 name: CD SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 04 00 00 00
 #
 name: CD SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 04 00 00 00
 #
 name: CD CHAN/SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 04 00 00 00
 #
@@ -111,19 +111,19 @@ command: 04 00 00 00
 #
 name: CD SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 05 00 00 00
 #
 name: CD SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 05 00 00 00
 #
 name: CD CHAN/SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 05 00 00 00
 #
@@ -135,115 +135,115 @@ command: 05 00 00 00
 #
 name: CD SEARCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 06 00 00 00
 #
 name: CD_SEARCH>>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 06 00 00 00
 #
 name: CD SEARCH>>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 06 00 00 00
 #
 name: CD SCAN >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 06 00 00 00
 #
 name: CD TUNE/SRCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 06 00 00 00
 #
 name: CD SEARCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 07 00 00 00
 #
 name: CD_SEARCH<<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 07 00 00 00
 #
 name: CD SEARCH<<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 07 00 00 00
 #
 name: CD SCAN <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 07 00 00 00
 #
 name: CD TUNE/SRCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 07 00 00 00
 #
 name: CD REPEAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0a 00 00 00
 #
 name: CD A-B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0b 00 00 00
 #
 name: CD_A-B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0b 00 00 00
 #
 name: CD A - B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0b 00 00 00
 #
 name: CD INTRO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0d 00 00 00
 #
 name: CD_INTRO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0d 00 00 00
 #
 name: INTRO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0d 00 00 00
 #
 name: CD # (P-SCAN)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0d 00 00 00
 #
 name: CD * (MEMO)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0e 00 00 00
 #
@@ -261,61 +261,61 @@ command: 10 00 00 00
 #
 name: CD 1 (ABC)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 11 00 00 00
 #
 name: CD 2 (DEF)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 12 00 00 00
 #
 name: CD 3 (GHI)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 13 00 00 00
 #
 name: CD 4 (JKL)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 14 00 00 00
 #
 name: CD 5 (MNO)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 15 00 00 00
 #
 name: CD 6 (PQR)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 16 00 00 00
 #
 name: CD 7 (STU)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 17 00 00 00
 #
 name: CD 8 (VWX)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 18 00 00 00
 #
 name: CD 9 (YZ)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 19 00 00 00
 #
 name: CD 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 1a 00 00 00
 #
@@ -333,43 +333,43 @@ command: 29 00 00 00
 #
 name: CD 0 (CLEAR)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 40 00 00 00
 #
 name: CD DISC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 50 00 00 00
 #
 name: CD_DISC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 50 00 00 00
 #
 name: DISC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 50 00 00 00
 #
 name: CD DISC SKIP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 50 00 00 00
 #
 name: CD DISC +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 50 00 00 00
 #
 name: CD PRESET DISC +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 50 00 00 00
 #
@@ -381,25 +381,25 @@ command: 50 00 00 00
 #
 name: CD SOURCE POWER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 56 00 00 00
 #
 name: CD ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 56 00 00 00
 #
 name: CD SOURCE POWER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 57 00 00 00
 #
 name: CD OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 57 00 00 00
 #
@@ -411,7 +411,7 @@ command: 57 00 00 00
 #
 name: CD PRESET DISC -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 5b 00 00 00
 #
@@ -423,7 +423,7 @@ command: 5b 00 00 00
 #
 name: CD REV PLAY < (FM M)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 5f 00 00 00
 #
@@ -447,7 +447,7 @@ command: 81 00 00 00
 #
 name: AM/FM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 81 00 00 00
 #
@@ -525,7 +525,7 @@ command: 84 00 00 00
 #
 name: TUNE UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 84 00 00 00
 #
@@ -603,7 +603,7 @@ command: 85 00 00 00
 #
 name: TUNE DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 85 00 00 00
 #
@@ -681,7 +681,7 @@ command: 87 00 00 00
 #
 name: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 87 00 00 00
 #
@@ -711,7 +711,7 @@ command: 88 00 00 00
 #
 name: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 88 00 00 00
 #
@@ -753,7 +753,7 @@ command: 89 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 89 00 00 00
 #
@@ -795,7 +795,7 @@ command: 8a 00 00 00
 #
 name: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 8a 00 00 00
 #
@@ -831,7 +831,7 @@ command: 8b 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 8b 00 00 00
 #
@@ -903,7 +903,7 @@ command: 8d 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 8d 00 00 00
 #
@@ -945,7 +945,7 @@ command: 8e 00 00 00
 #
 name: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 8e 00 00 00
 #
@@ -1059,7 +1059,7 @@ command: 9b 00 00 00
 #
 name: DIRECT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 9b 00 00 00
 #
@@ -1089,7 +1089,7 @@ command: 9d 00 00 00
 #
 name: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 9d 00 00 00
 #
@@ -1119,7 +1119,7 @@ command: 9e 00 00 00
 #
 name: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 9e 00 00 00
 #
@@ -1305,7 +1305,7 @@ command: c1 00 00 00
 #
 name: MUTE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: c1 00 00 00
 #

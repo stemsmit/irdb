@@ -3,6 +3,6 @@ Version: 1
 #
 name: PAGE DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 86 00 00 00
 command: 19 00 00 00

@@ -3,19 +3,19 @@ Version: 1
 #
 name: TUNER PRESET +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: CH+ TUNE_STEP/SL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: PRESET >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
@@ -39,7 +39,7 @@ command: 00 00 00 00
 #
 name: CH +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
@@ -51,19 +51,19 @@ command: 00 00 00 00
 #
 name: CH+
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: CHANNEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: CH UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
@@ -75,7 +75,7 @@ command: 00 00 00 00
 #
 name: UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
@@ -87,31 +87,31 @@ command: 00 00 00 00
 #
 name: CH/DISC/ALBUM +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: CHAN +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: TUNER PRESET -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: CH- TUNE_STEP/SL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: PRESET <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
@@ -135,7 +135,7 @@ command: 01 00 00 00
 #
 name: CH -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
@@ -147,19 +147,19 @@ command: 01 00 00 00
 #
 name: CH-
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: CHANNEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: CH DN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
@@ -171,7 +171,7 @@ command: 01 00 00 00
 #
 name: DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
@@ -183,19 +183,19 @@ command: 01 00 00 00
 #
 name: CH/DISC/ALBUM -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: CHAN -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
@@ -213,19 +213,19 @@ command: 02 00 00 00
 #
 name: VOL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: VOL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
@@ -243,13 +243,13 @@ command: 03 00 00 00
 #
 name: VOL DN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
 name: VOL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
@@ -273,13 +273,13 @@ command: 04 00 00 00
 #
 name: RECIEVER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 04 00 00 00
 #
 name: RCVR ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 04 00 00 00
 #
@@ -381,7 +381,7 @@ command: 08 00 00 00
 #
 name: TAPE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 08 00 00 00
 #
@@ -417,7 +417,7 @@ command: 09 00 00 00
 #
 name: CD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 09 00 00 00
 #
@@ -447,7 +447,7 @@ command: 0a 00 00 00
 #
 name: PHONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 0a 00 00 00
 #
@@ -489,7 +489,7 @@ command: 0b 00 00 00
 #
 name: TUNER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 0b 00 00 00
 #
@@ -573,7 +573,7 @@ command: 0d 00 00 00
 #
 name: VIDEO 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 0d 00 00 00
 #
@@ -663,7 +663,7 @@ command: 0e 00 00 00
 #
 name: VIDEO 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 0e 00 00 00
 #
@@ -765,7 +765,7 @@ command: 0f 00 00 00
 #
 name: VIDEO 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 0f 00 00 00
 #
@@ -891,7 +891,7 @@ command: 44 00 00 00
 #
 name: DIRECT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 44 00 00 00
 #
@@ -1041,13 +1041,13 @@ command: 5d 00 00 00
 #
 name: SLEEP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 5d 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
@@ -1059,25 +1059,25 @@ command: 82 00 00 00
 #
 name: UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: CURSER UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: CUR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
@@ -1089,37 +1089,37 @@ command: 83 00 00 00
 #
 name: DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: DN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: CURSOR DN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: CURSER DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: CUR DWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
@@ -1131,31 +1131,31 @@ command: 84 00 00 00
 #
 name: LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
 name: CURSOR LF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
 name: CURSER LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
 name: CUR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
 name: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
@@ -1167,25 +1167,25 @@ command: 85 00 00 00
 #
 name: RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
 name: CURSOR RT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
 name: CURSER RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
 name: CUR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
@@ -1239,7 +1239,7 @@ command: 95 00 00 00
 #
 name: DIMMER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 95 00 00 00
 #
@@ -1353,7 +1353,7 @@ command: 9d 00 00 00
 #
 name: VIDEO 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 9d 00 00 00
 #
@@ -1437,7 +1437,7 @@ command: 9f 00 00 00
 #
 name: VIDEO 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 9f 00 00 00
 #
@@ -1545,13 +1545,13 @@ command: cc 00 00 00
 #
 name: RADIO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
@@ -1815,115 +1815,115 @@ command: cc 00 00 00
 #
 name: ZONE 2 CD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 DVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 IRD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 MSRV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 PHONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 TAPE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 TUNER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 VIDEO 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 VIDEO 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 VIDEO 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 VIDEO 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 VIDEO 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2 VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: Z2 LEV DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: Z2 LEV UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: Z2 OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: Z2 ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #
 name: ZONE 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cc 00 00 00
 #

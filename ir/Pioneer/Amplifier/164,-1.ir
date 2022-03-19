@@ -3,6 +3,6 @@ Version: 1
 #
 name: UP CURSOR
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: a4 00 00 00
 command: 56 00 00 00

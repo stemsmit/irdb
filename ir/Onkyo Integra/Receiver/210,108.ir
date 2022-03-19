@@ -15,13 +15,13 @@ command: 19 00 00 00
 #
 name: LEVEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: LEVEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #

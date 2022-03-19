@@ -3,6 +3,6 @@ Version: 1
 #
 name: TAPE POSITION
 type: parsed
-protocol: Panasonic
+protocol: NEC
 address: 90 00 00 00
 command: 2b 00 00 00

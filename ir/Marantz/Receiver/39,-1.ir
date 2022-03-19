@@ -3,6 +3,6 @@ Version: 1
 #
 name: SAT
 type: parsed
-protocol: RC6
+protocol: NEC
 address: 27 00 00 00
 command: 3f 00 00 00

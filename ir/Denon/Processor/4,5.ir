@@ -3,6 +3,6 @@ Version: 1
 #
 name: AUX ZONE 3
 type: parsed
-protocol: Denon-K
+protocol: NEC
 address: 04 00 00 00
 command: 2c7 00 00 00

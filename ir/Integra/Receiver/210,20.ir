@@ -39,13 +39,13 @@ command: 4d 00 00 00
 #
 name: NET TUNE FFWD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: NET TUNE REW
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
@@ -117,25 +117,25 @@ command: 9e 00 00 00
 #
 name: NET TUNE UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c0 00 00 00
 #
 name: NET TUNE DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c1 00 00 00
 #
 name: NET TUNE LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c2 00 00 00
 #
 name: NET TUNE RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c3 00 00 00
 #

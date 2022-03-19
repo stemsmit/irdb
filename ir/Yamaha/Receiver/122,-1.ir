@@ -3,31 +3,31 @@ Version: 1
 #
 name: SCENE 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 00 00 00 00
 #
 name: SYS MEM 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 00 00 00 00
 #
 name: SYS MEM 1 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 00 00 00 00
 #
 name: SCENE: BD/DVD
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 00 00 00 00
 #
 name: SCENE BD/DVD
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 00 00 00 00
 #
@@ -39,13 +39,13 @@ command: 00 00 00 00
 #
 name: MZ: SYSM RC/SV 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 00 00 00 00
 #
 name: SYS MEM 1 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 01 00 00 00
 #
@@ -63,7 +63,7 @@ command: 01 00 00 00
 #
 name: SYS MEM 1 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 02 00 00 00
 #
@@ -75,37 +75,37 @@ command: 02 00 00 00
 #
 name: Z3: SYSM REC/SV 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 02 00 00 00
 #
 name: SCENE 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 03 00 00 00
 #
 name: SYS MEM 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 03 00 00 00
 #
 name: SYS MEM 2 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 03 00 00 00
 #
 name: SCENE: TV
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 03 00 00 00
 #
 name: SCENE TV
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 03 00 00 00
 #
@@ -117,13 +117,13 @@ command: 03 00 00 00
 #
 name: MZ: SYSM RE/SV 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 03 00 00 00
 #
 name: SYS MEM 2 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 04 00 00 00
 #
@@ -141,7 +141,7 @@ command: 04 00 00 00
 #
 name: SYS MEM 2 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 05 00 00 00
 #
@@ -153,7 +153,7 @@ command: 05 00 00 00
 #
 name: Z3: SYSM REC/SV 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 05 00 00 00
 #
@@ -165,31 +165,31 @@ command: 06 00 00 00
 #
 name: SCENE 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 06 00 00 00
 #
 name: SYS MEM 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 06 00 00 00
 #
 name: SYS MEM 3 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 06 00 00 00
 #
 name: SCENE: CD
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 06 00 00 00
 #
 name: SCENE CD
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 06 00 00 00
 #
@@ -201,7 +201,7 @@ command: 06 00 00 00
 #
 name: MZ: SYSM RE/SV 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 06 00 00 00
 #
@@ -213,7 +213,7 @@ command: 07 00 00 00
 #
 name: SYS MEM 3 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 07 00 00 00
 #
@@ -231,7 +231,7 @@ command: 07 00 00 00
 #
 name: SYS MEM 3 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 08 00 00 00
 #
@@ -243,37 +243,37 @@ command: 08 00 00 00
 #
 name: Z3: SYSM REC/SV 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 08 00 00 00
 #
 name: SCENE 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 09 00 00 00
 #
 name: SYS MEM 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 09 00 00 00
 #
 name: SYS MEM 4 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 09 00 00 00
 #
 name: SCENE: RADIO
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 09 00 00 00
 #
 name: SCENE RADIO
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 09 00 00 00
 #
@@ -285,13 +285,13 @@ command: 09 00 00 00
 #
 name: MZ: SYSM RE/SV 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 09 00 00 00
 #
 name: SYS MEM 4 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 0a 00 00 00
 #
@@ -309,7 +309,7 @@ command: 0a 00 00 00
 #
 name: SYS MEM 4 TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 0b 00 00 00
 #
@@ -321,7 +321,7 @@ command: 0b 00 00 00
 #
 name: Z3: SYSM REC/SV 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 0b 00 00 00
 #
@@ -441,7 +441,7 @@ command: 0f 00 00 00
 #
 name: INP VCR1(VCR)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 0f 00 00 00
 #
@@ -459,7 +459,7 @@ command: 0f 00 00 00
 #
 name: MZ INP: VCR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 0f 00 00 00
 #
@@ -525,7 +525,7 @@ command: 10 00 00 00
 #
 name: TUNER: PRESET NO (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 10 00 00 00
 #
@@ -579,7 +579,7 @@ command: 10 00 00 00
 #
 name: TUN PRES/CH UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 10 00 00 00
 #
@@ -597,7 +597,7 @@ command: 10 00 00 00
 #
 name: TUNER: UP
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 10 00 00 00
 #
@@ -633,7 +633,7 @@ command: 11 00 00 00
 #
 name: PRESET DOWN
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 7a 00 00 00
 command: 11 00 00 00
 #
@@ -675,7 +675,7 @@ command: 11 00 00 00
 #
 name: TUNER: PRESET NO (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 11 00 00 00
 #
@@ -735,7 +735,7 @@ command: 11 00 00 00
 #
 name: TUN PRES/CH DN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 11 00 00 00
 #
@@ -747,7 +747,7 @@ command: 11 00 00 00
 #
 name: TUNER: DOWN
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 11 00 00 00
 #
@@ -867,7 +867,7 @@ command: 12 00 00 00
 #
 name: TUN A-B/CAT (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 12 00 00 00
 #
@@ -885,7 +885,7 @@ command: 12 00 00 00
 #
 name: TUNER: RIGHT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 12 00 00 00
 #
@@ -1041,7 +1041,7 @@ command: 13 00 00 00
 #
 name: INP DVR/VCR2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 13 00 00 00
 #
@@ -1059,7 +1059,7 @@ command: 13 00 00 00
 #
 name: MZ INP: DVR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 13 00 00 00
 #
@@ -1077,13 +1077,13 @@ command: 14 00 00 00
 #
 name: PHONO
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 7a 00 00 00
 command: 14 00 00 00
 #
 name: INPUT PHONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 14 00 00 00
 #
@@ -1125,7 +1125,7 @@ command: 14 00 00 00
 #
 name: INP PHONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 14 00 00 00
 #
@@ -1143,7 +1143,7 @@ command: 14 00 00 00
 #
 name: MZ INP: PHONO
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 14 00 00 00
 #
@@ -1215,7 +1215,7 @@ command: 15 00 00 00
 #
 name: INP CD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 15 00 00 00
 #
@@ -1239,7 +1239,7 @@ command: 15 00 00 00
 #
 name: MZ INP: CD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 15 00 00 00
 #
@@ -1251,7 +1251,7 @@ command: 16 00 00 00
 #
 name: TUNER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 16 00 00 00
 #
@@ -1263,7 +1263,7 @@ command: 16 00 00 00
 #
 name: TUNER
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 7a 00 00 00
 command: 16 00 00 00
 #
@@ -1311,7 +1311,7 @@ command: 16 00 00 00
 #
 name: INP TUNER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 16 00 00 00
 #
@@ -1329,7 +1329,7 @@ command: 16 00 00 00
 #
 name: MZ INP: TUNER
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 16 00 00 00
 #
@@ -1353,7 +1353,7 @@ command: 17 00 00 00
 #
 name: AUX
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 7a 00 00 00
 command: 17 00 00 00
 #
@@ -1371,7 +1371,7 @@ command: 17 00 00 00
 #
 name: INPUT DVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 17 00 00 00
 #
@@ -1503,7 +1503,7 @@ command: 18 00 00 00
 #
 name: Z4: SYSM REC/SV 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 18 00 00 00
 #
@@ -1581,7 +1581,7 @@ command: 19 00 00 00
 #
 name: Z4: SYSM REC/SV 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 19 00 00 00
 #
@@ -1593,7 +1593,7 @@ command: 19 00 00 00
 #
 name: MZ INP: MD/CD-R
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 19 00 00 00
 #
@@ -1671,7 +1671,7 @@ command: 1a 00 00 00
 #
 name: VOLUME (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 1a 00 00 00
 #
@@ -1683,13 +1683,13 @@ command: 1a 00 00 00
 #
 name: Z4: SYSM REC/SV 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 1a 00 00 00
 #
 name: MZ: VOLUME UP
 type: parsed
-protocol: NEC1-f16
+protocol: NEC
 address: 7a 00 00 00
 command: 1a 00 00 00
 #
@@ -1773,7 +1773,7 @@ command: 1b 00 00 00
 #
 name: VOLUME (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 1b 00 00 00
 #
@@ -1785,13 +1785,13 @@ command: 1b 00 00 00
 #
 name: Z4: SYSM REC/SV 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 1b 00 00 00
 #
 name: MZ: VOLUME DOWN
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 1b 00 00 00
 #
@@ -1803,7 +1803,7 @@ command: 1c 00 00 00
 #
 name: MUTE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 1c 00 00 00
 #
@@ -1869,7 +1869,7 @@ command: 1c 00 00 00
 #
 name: MUTE TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 1c 00 00 00
 #
@@ -1893,7 +1893,7 @@ command: 1d 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 1d 00 00 00
 #
@@ -1983,7 +1983,7 @@ command: 1d 00 00 00
 #
 name: SYSTEM POWER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 1d 00 00 00
 #
@@ -2097,7 +2097,7 @@ command: 1e 00 00 00
 #
 name: SYSTEM POWER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 1e 00 00 00
 #
@@ -2145,13 +2145,13 @@ command: 1f 00 00 00
 #
 name: INPUT +
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 1f 00 00 00
 #
 name: INPUT UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 1f 00 00 00
 #
@@ -2169,31 +2169,31 @@ command: 1f 00 00 00
 #
 name: MZ: INPUT UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 1f 00 00 00
 #
 name: INPUT +
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 20 00 00 00
 #
 name: Z2 INPUT UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 20 00 00 00
 #
 name: Z2: INPUT +
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 20 00 00 00
 #
 name: Z2 INPUT +
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 20 00 00 00
 #
@@ -2205,7 +2205,7 @@ command: 20 00 00 00
 #
 name: Z2: INPUT UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 20 00 00 00
 #
@@ -2217,13 +2217,13 @@ command: 20 00 00 00
 #
 name: Z4 INP: TUNER
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 20 00 00 00
 #
 name: INPUT +
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 21 00 00 00
 #
@@ -2235,7 +2235,7 @@ command: 21 00 00 00
 #
 name: Z3: INPUT UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 21 00 00 00
 #
@@ -2247,7 +2247,7 @@ command: 22 00 00 00
 #
 name: Z4: INPUT UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 22 00 00 00
 #
@@ -2259,25 +2259,25 @@ command: 22 00 00 00
 #
 name: Z4 INP: MD/CD-R
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 22 00 00 00
 #
 name: INPUT -
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 23 00 00 00
 #
 name: INPUT DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 23 00 00 00
 #
 name: MZ: INPUT DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 23 00 00 00
 #
@@ -2295,31 +2295,31 @@ command: 23 00 00 00
 #
 name: Z4 INP: TV
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 23 00 00 00
 #
 name: INPUT -
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 24 00 00 00
 #
 name: Z2 INPUT DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 24 00 00 00
 #
 name: Z2: INPUT -
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 24 00 00 00
 #
 name: Z2 INPUT -
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 24 00 00 00
 #
@@ -2331,7 +2331,7 @@ command: 24 00 00 00
 #
 name: Z2: INPUT DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 24 00 00 00
 #
@@ -2343,19 +2343,19 @@ command: 24 00 00 00
 #
 name: Z4 INP: CBL/SAT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 24 00 00 00
 #
 name: INPUT -
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 25 00 00 00
 #
 name: Z3: INPUT DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 25 00 00 00
 #
@@ -2367,7 +2367,7 @@ command: 26 00 00 00
 #
 name: Z4: INPUT DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 26 00 00 00
 #
@@ -2379,25 +2379,25 @@ command: 26 00 00 00
 #
 name: Z4 INP: VCR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 26 00 00 00
 #
 name: DISP INFO TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 27 00 00 00
 #
 name: INFO
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 27 00 00 00
 #
 name: DISPLAY INFO
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 27 00 00 00
 #
@@ -2409,13 +2409,13 @@ command: 27 00 00 00
 #
 name: INFO TOGGLE
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 27 00 00 00
 #
 name: INFO TOGGLE
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 27 00 00 00
 #
@@ -2427,13 +2427,13 @@ command: 27 00 00 00
 #
 name: Z4 INP: DVR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 27 00 00 00
 #
 name: DISP INFO TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 28 00 00 00
 #
@@ -2445,13 +2445,13 @@ command: 28 00 00 00
 #
 name: INFO TOGGLE
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 28 00 00 00
 #
 name: INFO TOGGLE
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 28 00 00 00
 #
@@ -2463,13 +2463,13 @@ command: 28 00 00 00
 #
 name: Z4 INP: BD/HD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 28 00 00 00
 #
 name: DISP INFO TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 29 00 00 00
 #
@@ -2481,13 +2481,13 @@ command: 29 00 00 00
 #
 name: INFO
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 29 00 00 00
 #
 name: INFO
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 29 00 00 00
 #
@@ -2499,7 +2499,7 @@ command: 29 00 00 00
 #
 name: Z4 INP: DVD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 29 00 00 00
 #
@@ -2517,25 +2517,25 @@ command: 2a 00 00 00
 #
 name: INFO TOGGLE
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2a 00 00 00
 #
 name: Z4 INP: XM
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 2a 00 00 00
 #
 name: INFO TOGGLE
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 2a 00 00 00
 #
 name: SETUP UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2b 00 00 00
 #
@@ -2547,19 +2547,19 @@ command: 2b 00 00 00
 #
 name: SETUP: UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2b 00 00 00
 #
 name: SETUP: UP
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 2b 00 00 00
 #
 name: SETUP DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2c 00 00 00
 #
@@ -2571,19 +2571,19 @@ command: 2c 00 00 00
 #
 name: SETUP: DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2c 00 00 00
 #
 name: SETUP: DOWN
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 2c 00 00 00
 #
 name: SETUP LEFT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2d 00 00 00
 #
@@ -2595,49 +2595,49 @@ command: 2d 00 00 00
 #
 name: SETUP: LEFT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2d 00 00 00
 #
 name: SETUP: LEFT
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 2d 00 00 00
 #
 name: SETUP RIGHT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2e 00 00 00
 #
 name: SETUP: RIGHT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2e 00 00 00
 #
 name: SETUP: RIGHT
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 2e 00 00 00
 #
 name: SETUP ENTER
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2f 00 00 00
 #
 name: SETUP: ENTER
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 2f 00 00 00
 #
 name: SETUP: ENTER
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 2f 00 00 00
 #
@@ -2649,7 +2649,7 @@ command: 30 00 00 00
 #
 name: SETUP UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 30 00 00 00
 #
@@ -2661,13 +2661,13 @@ command: 30 00 00 00
 #
 name: SETUP: UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 30 00 00 00
 #
 name: SETUP: UP
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 30 00 00 00
 #
@@ -2679,7 +2679,7 @@ command: 31 00 00 00
 #
 name: SETUP DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 31 00 00 00
 #
@@ -2691,13 +2691,13 @@ command: 31 00 00 00
 #
 name: SETUP: DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 31 00 00 00
 #
 name: SETUP: DOWN
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 31 00 00 00
 #
@@ -2709,7 +2709,7 @@ command: 32 00 00 00
 #
 name: SETUP LEFT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 32 00 00 00
 #
@@ -2727,25 +2727,25 @@ command: 32 00 00 00
 #
 name: SETUP: LEFT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 32 00 00 00
 #
 name: Z3: SLEEP
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 32 00 00 00
 #
 name: SETUP: LEFT
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 32 00 00 00
 #
 name: SETUP RIGHT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 33 00 00 00
 #
@@ -2763,13 +2763,13 @@ command: 33 00 00 00
 #
 name: SETUP: RIGHT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 33 00 00 00
 #
 name: SETUP: RIGHT
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 33 00 00 00
 #
@@ -2781,13 +2781,13 @@ command: 33 00 00 00
 #
 name: Z4: SLEEP
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 33 00 00 00
 #
 name: SETUP ENTER
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 34 00 00 00
 #
@@ -2805,13 +2805,13 @@ command: 34 00 00 00
 #
 name: SETUP: ENTER
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 34 00 00 00
 #
 name: SETUP: ENTER
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 34 00 00 00
 #
@@ -2829,13 +2829,13 @@ command: 35 00 00 00
 #
 name: SETUP: UP
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 35 00 00 00
 #
 name: SETUP: UP
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 35 00 00 00
 #
@@ -2859,25 +2859,25 @@ command: 36 00 00 00
 #
 name: DISPLAY TOGGLE
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 36 00 00 00
 #
 name: SETUP: ENTER
 type: parsed
-protocol: NEC1-f16
+protocol: NEC
 address: 7a 00 00 00
 command: 36 00 00 00
 #
 name: SETUP: DOWN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 36 00 00 00
 #
 name: SETUP: DOWN
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 36 00 00 00
 #
@@ -2901,19 +2901,19 @@ command: 37 00 00 00
 #
 name: DISPLAY
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 37 00 00 00
 #
 name: SETUP: LEFT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 37 00 00 00
 #
 name: SETUP: LEFT
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 37 00 00 00
 #
@@ -2931,19 +2931,19 @@ command: 38 00 00 00
 #
 name: SETUP: RIGHT
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 38 00 00 00
 #
 name: DISPLAY TOGGLE
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 38 00 00 00
 #
 name: SETUP: RIGHT
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 38 00 00 00
 #
@@ -2979,13 +2979,13 @@ command: 39 00 00 00
 #
 name: MZ INP: SIRIUS
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 39 00 00 00
 #
 name: SETUP: ENTER
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 39 00 00 00
 #
@@ -2997,7 +2997,7 @@ command: 3a 00 00 00
 #
 name: DISP STATUS TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3a 00 00 00
 #
@@ -3027,25 +3027,25 @@ command: 3a 00 00 00
 #
 name: STATUS TOGGLE
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3a 00 00 00
 #
 name: Z2 INP: SIRIUS
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 3a 00 00 00
 #
 name: STATUS TOGGLE
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 3a 00 00 00
 #
 name: SETUP MENU
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3b 00 00 00
 #
@@ -3057,13 +3057,13 @@ command: 3b 00 00 00
 #
 name: SETUP: MENU
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3b 00 00 00
 #
 name: SETUP: MENU
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 3b 00 00 00
 #
@@ -3075,25 +3075,25 @@ command: 3b 00 00 00
 #
 name: Z3 INP: SIRIUS
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 3b 00 00 00
 #
 name: SETUP RTRN/SUBMEN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3c 00 00 00
 #
 name: SETUP: RETURN (SUB)
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3c 00 00 00
 #
 name: SETUP: RETURN (SUB)
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 3c 00 00 00
 #
@@ -3105,13 +3105,13 @@ command: 3c 00 00 00
 #
 name: Z4 INP: SIRIUS
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 3c 00 00 00
 #
 name: DISP STATUS TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3d 00 00 00
 #
@@ -3123,37 +3123,37 @@ command: 3d 00 00 00
 #
 name: STATUS
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3d 00 00 00
 #
 name: STATUS
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 3d 00 00 00
 #
 name: MZ: SYSM REC 10
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3e 00 00 00
 #
 name: SETUP RTRN/SUBMEN
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3f 00 00 00
 #
 name: SETUP: RETURN (SUB)
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 3f 00 00 00
 #
 name: SETUP: RETURN (SUB)
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 3f 00 00 00
 #
@@ -3171,145 +3171,145 @@ command: 40 00 00 00
 #
 name: STATUS TOGGLE
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 40 00 00 00
 #
 name: STATUS TOGGLE
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 40 00 00 00
 #
 name: SETUP: MENU
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 41 00 00 00
 #
 name: SETUP: MENU
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 41 00 00 00
 #
 name: SETUP: RETURN (SUB)
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 42 00 00 00
 #
 name: SETUP: RETURN (SUB)
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 42 00 00 00
 #
 name: DISP STATUS
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 43 00 00 00
 #
 name: DISP STATUS TOG
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 43 00 00 00
 #
 name: STATUS TOGGLE
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 43 00 00 00
 #
 name: STATUS TOGGLE
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 43 00 00 00
 #
 name: SETUP MENU
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 44 00 00 00
 #
 name: SETUP: MENU
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 44 00 00 00
 #
 name: SETUP: MENU
 type: parsed
-protocol: NEC1-y3
+protocol: NEC
 address: 7a 00 00 00
 command: 44 00 00 00
 #
 name: Z2: POWER/STANDBY
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 45 00 00 00
 #
 name: INPUT HDMI 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 47 00 00 00
 #
 name: HDMI 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 47 00 00 00
 #
 name: INPUT HDMI-1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 47 00 00 00
 #
 name: INPUT HDMI 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 4a 00 00 00
 #
 name: HDMI 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 4a 00 00 00
 #
 name: INPUT HDMI-2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 4a 00 00 00
 #
 name: INPUT HDMI 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 4d 00 00 00
 #
 name: HDMI 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 4d 00 00 00
 #
 name: INPUT HDMI-3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 4d 00 00 00
 #
 name: Z4 INP: DOCK
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 4d 00 00 00
 #
@@ -3321,19 +3321,19 @@ command: 4f 00 00 00
 #
 name: INPUT HDMI 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 50 00 00 00
 #
 name: HDMI 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 50 00 00 00
 #
 name: INPUT HDMI-4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 50 00 00 00
 #
@@ -3369,7 +3369,7 @@ command: 52 00 00 00
 #
 name: MENU: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 52 00 00 00
 #
@@ -3411,7 +3411,7 @@ command: 52 00 00 00
 #
 name: SET MENU RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 52 00 00 00
 #
@@ -3441,7 +3441,7 @@ command: 53 00 00 00
 #
 name: DSP -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 53 00 00 00
 #
@@ -3459,7 +3459,7 @@ command: 53 00 00 00
 #
 name: INPUT AV 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 53 00 00 00
 #
@@ -3471,7 +3471,7 @@ command: 53 00 00 00
 #
 name: MENU: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 53 00 00 00
 #
@@ -3483,7 +3483,7 @@ command: 53 00 00 00
 #
 name: AV 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 53 00 00 00
 #
@@ -3519,13 +3519,13 @@ command: 53 00 00 00
 #
 name: SET MENU LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 53 00 00 00
 #
 name: INPUT AV-1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 53 00 00 00
 #
@@ -3555,7 +3555,7 @@ command: 54 00 00 00
 #
 name: TV/CBL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 54 00 00 00
 #
@@ -3687,7 +3687,7 @@ command: 54 00 00 00
 #
 name: INP DTV/CBL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 54 00 00 00
 #
@@ -3705,7 +3705,7 @@ command: 54 00 00 00
 #
 name: MZ INP: TV
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 54 00 00 00
 #
@@ -3717,7 +3717,7 @@ command: 55 00 00 00
 #
 name: V-AUX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 55 00 00 00
 #
@@ -3837,7 +3837,7 @@ command: 55 00 00 00
 #
 name: INP V-AUX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 55 00 00 00
 #
@@ -3855,7 +3855,7 @@ command: 55 00 00 00
 #
 name: MZ INP: V-AUX
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 55 00 00 00
 #
@@ -3867,7 +3867,7 @@ command: 56 00 00 00
 #
 name: STEREO (EFFECT)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 56 00 00 00
 #
@@ -3885,7 +3885,7 @@ command: 56 00 00 00
 #
 name: INPUT AV 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 56 00 00 00
 #
@@ -3951,7 +3951,7 @@ command: 56 00 00 00
 #
 name: AV 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 56 00 00 00
 #
@@ -3975,7 +3975,7 @@ command: 56 00 00 00
 #
 name: DSP STRAIGHT TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 56 00 00 00
 #
@@ -3987,7 +3987,7 @@ command: 56 00 00 00
 #
 name: INPUT AV-2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 56 00 00 00
 #
@@ -4017,7 +4017,7 @@ command: 57 00 00 00
 #
 name: SLEEP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 57 00 00 00
 #
@@ -4101,7 +4101,7 @@ command: 59 00 00 00
 #
 name: INPUT AV 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 59 00 00 00
 #
@@ -4113,7 +4113,7 @@ command: 59 00 00 00
 #
 name: AV 3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 59 00 00 00
 #
@@ -4131,7 +4131,7 @@ command: 59 00 00 00
 #
 name: INPUT AV-3
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 59 00 00 00
 #
@@ -4155,19 +4155,19 @@ command: 5c 00 00 00
 #
 name: INPUT AV 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 5c 00 00 00
 #
 name: AV 4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 5c 00 00 00
 #
 name: INPUT AV-4
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 5c 00 00 00
 #
@@ -4179,19 +4179,19 @@ command: 5e 00 00 00
 #
 name: INPUT AV 5
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 5f 00 00 00
 #
 name: AV 5
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 5f 00 00 00
 #
 name: INPUT AV-5
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 5f 00 00 00
 #
@@ -4209,7 +4209,7 @@ command: 60 00 00 00
 #
 name: XM: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 60 00 00 00
 #
@@ -4221,7 +4221,7 @@ command: 60 00 00 00
 #
 name: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 60 00 00 00
 #
@@ -4245,7 +4245,7 @@ command: 60 00 00 00
 #
 name: XM 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 60 00 00 00
 #
@@ -4257,19 +4257,19 @@ command: 60 00 00 00
 #
 name: Z2: AV 5
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 60 00 00 00
 #
 name: Z2 INPUT AV-5
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 60 00 00 00
 #
 name: XM: 0
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 60 00 00 00
 #
@@ -4281,7 +4281,7 @@ command: 61 00 00 00
 #
 name: XM: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 61 00 00 00
 #
@@ -4293,7 +4293,7 @@ command: 61 00 00 00
 #
 name: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 61 00 00 00
 #
@@ -4317,7 +4317,7 @@ command: 61 00 00 00
 #
 name: XM 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 61 00 00 00
 #
@@ -4329,7 +4329,7 @@ command: 61 00 00 00
 #
 name: XM: 1
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 61 00 00 00
 #
@@ -4341,13 +4341,13 @@ command: 62 00 00 00
 #
 name: INPUT AV 6
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 62 00 00 00
 #
 name: XM: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 62 00 00 00
 #
@@ -4359,7 +4359,7 @@ command: 62 00 00 00
 #
 name: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 62 00 00 00
 #
@@ -4383,7 +4383,7 @@ command: 62 00 00 00
 #
 name: AV 6
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 62 00 00 00
 #
@@ -4395,13 +4395,13 @@ command: 62 00 00 00
 #
 name: INPUT AV-6
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 62 00 00 00
 #
 name: XM: 2
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 62 00 00 00
 #
@@ -4413,7 +4413,7 @@ command: 63 00 00 00
 #
 name: XM: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 63 00 00 00
 #
@@ -4425,7 +4425,7 @@ command: 63 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 63 00 00 00
 #
@@ -4449,7 +4449,7 @@ command: 63 00 00 00
 #
 name: XM 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 63 00 00 00
 #
@@ -4461,19 +4461,19 @@ command: 63 00 00 00
 #
 name: Z2: AV 6
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 63 00 00 00
 #
 name: Z2 INPUT AV-6
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 63 00 00 00
 #
 name: XM: 3
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 63 00 00 00
 #
@@ -4485,7 +4485,7 @@ command: 64 00 00 00
 #
 name: XM: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 64 00 00 00
 #
@@ -4497,7 +4497,7 @@ command: 64 00 00 00
 #
 name: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 64 00 00 00
 #
@@ -4527,7 +4527,7 @@ command: 64 00 00 00
 #
 name: XM: 4
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 64 00 00 00
 #
@@ -4539,19 +4539,19 @@ command: 65 00 00 00
 #
 name: INPUT AUDIO 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 65 00 00 00
 #
 name: AUDIO INPUT 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 65 00 00 00
 #
 name: XM: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 65 00 00 00
 #
@@ -4563,7 +4563,7 @@ command: 65 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 65 00 00 00
 #
@@ -4587,7 +4587,7 @@ command: 65 00 00 00
 #
 name: AUDIO 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 65 00 00 00
 #
@@ -4599,13 +4599,13 @@ command: 65 00 00 00
 #
 name: INPUT AUDIO-1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 65 00 00 00
 #
 name: XM: 5
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 65 00 00 00
 #
@@ -4617,7 +4617,7 @@ command: 66 00 00 00
 #
 name: XM: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 66 00 00 00
 #
@@ -4629,7 +4629,7 @@ command: 66 00 00 00
 #
 name: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 66 00 00 00
 #
@@ -4653,7 +4653,7 @@ command: 66 00 00 00
 #
 name: XM 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 66 00 00 00
 #
@@ -4665,19 +4665,19 @@ command: 66 00 00 00
 #
 name: Z2: AUDIO 1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 66 00 00 00
 #
 name: Z2 INPUT AUDIO-1
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 66 00 00 00
 #
 name: XM: 6
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 66 00 00 00
 #
@@ -4689,7 +4689,7 @@ command: 67 00 00 00
 #
 name: XM: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 67 00 00 00
 #
@@ -4701,7 +4701,7 @@ command: 67 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 67 00 00 00
 #
@@ -4725,7 +4725,7 @@ command: 67 00 00 00
 #
 name: XM 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 67 00 00 00
 #
@@ -4737,7 +4737,7 @@ command: 67 00 00 00
 #
 name: XM: 7
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 67 00 00 00
 #
@@ -4749,13 +4749,13 @@ command: 68 00 00 00
 #
 name: INPUT AUDIO 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 68 00 00 00
 #
 name: XM: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 68 00 00 00
 #
@@ -4767,7 +4767,7 @@ command: 68 00 00 00
 #
 name: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 68 00 00 00
 #
@@ -4791,7 +4791,7 @@ command: 68 00 00 00
 #
 name: AUDIO 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 68 00 00 00
 #
@@ -4803,13 +4803,13 @@ command: 68 00 00 00
 #
 name: INPUT AUDIO-2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 68 00 00 00
 #
 name: XM: 8
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 68 00 00 00
 #
@@ -4821,7 +4821,7 @@ command: 69 00 00 00
 #
 name: XM: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 69 00 00 00
 #
@@ -4833,7 +4833,7 @@ command: 69 00 00 00
 #
 name: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 69 00 00 00
 #
@@ -4863,19 +4863,19 @@ command: 69 00 00 00
 #
 name: Z2: AUDIO 2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 69 00 00 00
 #
 name: Z2 INPUT AUDIO-2
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 69 00 00 00
 #
 name: XM: 9
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 69 00 00 00
 #
@@ -4887,7 +4887,7 @@ command: 6a 00 00 00
 #
 name: XM: PRE/CH UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 6a 00 00 00
 #
@@ -4935,7 +4935,7 @@ command: 6a 00 00 00
 #
 name: XM: UP
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 6a 00 00 00
 #
@@ -4947,7 +4947,7 @@ command: 6b 00 00 00
 #
 name: XM: PRE/CH DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 6b 00 00 00
 #
@@ -4977,7 +4977,7 @@ command: 6b 00 00 00
 #
 name: OPTION
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 6b 00 00 00
 #
@@ -5001,7 +5001,7 @@ command: 6b 00 00 00
 #
 name: MENU OPTION
 type: parsed
-protocol: NEC1-y1
+protocol: NEC
 address: 7a 00 00 00
 command: 6b 00 00 00
 #
@@ -5013,7 +5013,7 @@ command: 6b 00 00 00
 #
 name: XM: DOWN
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 6b 00 00 00
 #
@@ -5025,7 +5025,7 @@ command: 6c 00 00 00
 #
 name: XM: A-E/CAT. (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 6c 00 00 00
 #
@@ -5085,7 +5085,7 @@ command: 6c 00 00 00
 #
 name: XM: RIGHT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 6c 00 00 00
 #
@@ -5097,7 +5097,7 @@ command: 6d 00 00 00
 #
 name: XM: SEARCH MD TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 6d 00 00 00
 #
@@ -5121,7 +5121,7 @@ command: 6d 00 00 00
 #
 name: XM:CAT/PST GP DOWN
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 6d 00 00 00
 #
@@ -5139,7 +5139,7 @@ command: 6e 00 00 00
 #
 name: XM: A-E/CAT (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 6e 00 00 00
 #
@@ -5199,7 +5199,7 @@ command: 6e 00 00 00
 #
 name: XM: LEFT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 6e 00 00 00
 #
@@ -5211,7 +5211,7 @@ command: 6f 00 00 00
 #
 name: XM: ENTER TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 6f 00 00 00
 #
@@ -5247,7 +5247,7 @@ command: 6f 00 00 00
 #
 name: XM: ENTER
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 6f 00 00 00
 #
@@ -5259,7 +5259,7 @@ command: 70 00 00 00
 #
 name: XM: TITLE TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 70 00 00 00
 #
@@ -5283,7 +5283,7 @@ command: 71 00 00 00
 #
 name: XM: MEMORY PRESET
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 71 00 00 00
 #
@@ -5307,7 +5307,7 @@ command: 71 00 00 00
 #
 name: XM: MEMORY
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 71 00 00 00
 #
@@ -5319,7 +5319,7 @@ command: 72 00 00 00
 #
 name: XM: DISPLAY TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 72 00 00 00
 #
@@ -5337,7 +5337,7 @@ command: 72 00 00 00
 #
 name: Z2: BASS (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 73 00 00 00
 #
@@ -5367,13 +5367,13 @@ command: 73 00 00 00
 #
 name: BASS +
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 73 00 00 00
 #
 name: Z2: BASS (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 74 00 00 00
 #
@@ -5403,13 +5403,13 @@ command: 74 00 00 00
 #
 name: BASS -
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 74 00 00 00
 #
 name: Z2: TREBLE (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 75 00 00 00
 #
@@ -5439,13 +5439,13 @@ command: 75 00 00 00
 #
 name: TREBLE +
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 75 00 00 00
 #
 name: Z2: TREBLE (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 76 00 00 00
 #
@@ -5475,13 +5475,13 @@ command: 76 00 00 00
 #
 name: TREBLE -
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 76 00 00 00
 #
 name: Z3: BASS (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 77 00 00 00
 #
@@ -5505,13 +5505,13 @@ command: 77 00 00 00
 #
 name: BASS +
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 77 00 00 00
 #
 name: Z3: BASS (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 78 00 00 00
 #
@@ -5535,13 +5535,13 @@ command: 78 00 00 00
 #
 name: BASS -
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 78 00 00 00
 #
 name: Z3: TREBLE (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 79 00 00 00
 #
@@ -5565,13 +5565,13 @@ command: 79 00 00 00
 #
 name: TREBLE +
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 79 00 00 00
 #
 name: Z3: TREBLE (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 7a 00 00 00
 #
@@ -5595,7 +5595,7 @@ command: 7a 00 00 00
 #
 name: TREBLE -
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 7a 00 00 00
 #
@@ -5607,7 +5607,7 @@ command: 7b 00 00 00
 #
 name: Z4: POWER ON
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 7b 00 00 00
 #
@@ -5625,7 +5625,7 @@ command: 7c 00 00 00
 #
 name: Z4: STANDBY
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 7c 00 00 00
 #
@@ -5643,7 +5643,7 @@ command: 7d 00 00 00
 #
 name: Z4 INP: V-AUX
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 7d 00 00 00
 #
@@ -5661,7 +5661,7 @@ command: 7e 00 00 00
 #
 name: Z4 INP: PHONO
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 7e 00 00 00
 #
@@ -5679,7 +5679,7 @@ command: 7f 00 00 00
 #
 name: Z4 INP: CD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 7f 00 00 00
 #
@@ -5775,7 +5775,7 @@ command: 85 00 00 00
 #
 name: TEST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 85 00 00 00
 #
@@ -5829,7 +5829,7 @@ command: 85 00 00 00
 #
 name: SET MENU RTRN/TEST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 85 00 00 00
 #
@@ -5847,7 +5847,7 @@ command: 86 00 00 00
 #
 name: LEVEL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 86 00 00 00
 #
@@ -5931,7 +5931,7 @@ command: 86 00 00 00
 #
 name: DSP LEVEL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 86 00 00 00
 #
@@ -6069,7 +6069,7 @@ command: 87 00 00 00
 #
 name: MULTI CH IN TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 87 00 00 00
 #
@@ -6099,7 +6099,7 @@ command: 87 00 00 00
 #
 name: MZ INP: MULTI CH
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 87 00 00 00
 #
@@ -6111,7 +6111,7 @@ command: 88 00 00 00
 #
 name: HALL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 88 00 00 00
 #
@@ -6255,7 +6255,7 @@ command: 88 00 00 00
 #
 name: DSP STEREO TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 88 00 00 00
 #
@@ -6447,7 +6447,7 @@ command: 89 00 00 00
 #
 name: DSP MUSIC TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 89 00 00 00
 #
@@ -6627,7 +6627,7 @@ command: 8a 00 00 00
 #
 name: DSP ENTERTAIN TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 8a 00 00 00
 #
@@ -6669,7 +6669,7 @@ command: 8b 00 00 00
 #
 name: ENTERTAINMENT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 8b 00 00 00
 #
@@ -6813,7 +6813,7 @@ command: 8b 00 00 00
 #
 name: DSP MOVIE TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 8b 00 00 00
 #
@@ -7023,7 +7023,7 @@ command: 8d 00 00 00
 #
 name: MONO MOVIE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 8d 00 00 00
 #
@@ -7245,7 +7245,7 @@ command: 8d 00 00 00
 #
 name: SUR DECODE
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: 8d 00 00 00
 #
@@ -7935,7 +7935,7 @@ command: 95 00 00 00
 #
 name: DSP NIGHT TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 95 00 00 00
 #
@@ -8007,7 +8007,7 @@ command: 96 00 00 00
 #
 name: DSP SELECT TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 96 00 00 00
 #
@@ -8019,7 +8019,7 @@ command: 96 00 00 00
 #
 name: MATRIX 6.1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 97 00 00 00
 #
@@ -8115,7 +8115,7 @@ command: 97 00 00 00
 #
 name: DSP EXTD SUR TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 97 00 00 00
 #
@@ -8157,7 +8157,7 @@ command: 98 00 00 00
 #
 name: MENU: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 98 00 00 00
 #
@@ -8199,7 +8199,7 @@ command: 98 00 00 00
 #
 name: SET MENU UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 98 00 00 00
 #
@@ -8241,7 +8241,7 @@ command: 99 00 00 00
 #
 name: MENU: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 99 00 00 00
 #
@@ -8283,7 +8283,7 @@ command: 99 00 00 00
 #
 name: SET MENU DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 99 00 00 00
 #
@@ -8313,7 +8313,7 @@ command: 9a 00 00 00
 #
 name: MZ: SPKR A TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 9a 00 00 00
 #
@@ -8337,7 +8337,7 @@ command: 9a 00 00 00
 #
 name: SPKRS A TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 9a 00 00 00
 #
@@ -8361,7 +8361,7 @@ command: 9b 00 00 00
 #
 name: MZ: SPKR B TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 9b 00 00 00
 #
@@ -8379,7 +8379,7 @@ command: 9b 00 00 00
 #
 name: SPKRS B TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 9b 00 00 00
 #
@@ -8439,7 +8439,7 @@ command: 9c 00 00 00
 #
 name: MENU: ON/OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 9c 00 00 00
 #
@@ -8523,7 +8523,7 @@ command: 9c 00 00 00
 #
 name: SET MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: 9c 00 00 00
 #
@@ -8871,7 +8871,7 @@ command: 9f 00 00 00
 #
 name: GUI: TOP MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: a0 00 00 00
 #
@@ -8907,13 +8907,13 @@ command: a0 00 00 00
 #
 name: MZ: MENU ON
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: a0 00 00 00
 #
 name: GUI: EXIT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: a1 00 00 00
 #
@@ -8949,7 +8949,7 @@ command: a1 00 00 00
 #
 name: MZ: MENU OFF
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: a1 00 00 00
 #
@@ -9099,7 +9099,7 @@ command: aa 00 00 00
 #
 name: MENU: RETURN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: aa 00 00 00
 #
@@ -9129,7 +9129,7 @@ command: aa 00 00 00
 #
 name: SET MENU RETURN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: aa 00 00 00
 #
@@ -9153,7 +9153,7 @@ command: aa 00 00 00
 #
 name: SUB MENU TOGGLE
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: aa 00 00 00
 #
@@ -9183,7 +9183,7 @@ command: ab 00 00 00
 #
 name: TUN SRCH MODE XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ab 00 00 00
 #
@@ -9201,7 +9201,7 @@ command: ac 00 00 00
 #
 name: TUNER: PRESET PG (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ac 00 00 00
 #
@@ -9243,7 +9243,7 @@ command: ac 00 00 00
 #
 name: TUN A-B/CAT (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ac 00 00 00
 #
@@ -9255,7 +9255,7 @@ command: ac 00 00 00
 #
 name: TUNER: LEFT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ac 00 00 00
 #
@@ -9267,7 +9267,7 @@ command: ad 00 00 00
 #
 name: TUN ENTER XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ad 00 00 00
 #
@@ -9285,7 +9285,7 @@ command: ae 00 00 00
 #
 name: TUNER: BAND AM/FM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ae 00 00 00
 #
@@ -9339,7 +9339,7 @@ command: af 00 00 00
 #
 name: TUNER: MEMORY
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: af 00 00 00
 #
@@ -9351,7 +9351,7 @@ command: b0 00 00 00
 #
 name: TUN DISPLAY XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b0 00 00 00
 #
@@ -9387,13 +9387,13 @@ command: b1 00 00 00
 #
 name: TUN 9 XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b1 00 00 00
 #
 name: TUNER: 9
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b1 00 00 00
 #
@@ -9423,13 +9423,13 @@ command: b2 00 00 00
 #
 name: TUN 0 XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b2 00 00 00
 #
 name: TUNER: 0
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b2 00 00 00
 #
@@ -9459,13 +9459,13 @@ command: b3 00 00 00
 #
 name: TUN ENT XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b3 00 00 00
 #
 name: TUNER: ENTER
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b3 00 00 00
 #
@@ -9477,7 +9477,7 @@ command: b4 00 00 00
 #
 name: MZ: XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b4 00 00 00
 #
@@ -9513,7 +9513,7 @@ command: b4 00 00 00
 #
 name: TUN BAND TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b4 00 00 00
 #
@@ -9531,7 +9531,7 @@ command: b4 00 00 00
 #
 name: MZ INP: XM
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b4 00 00 00
 #
@@ -9543,7 +9543,7 @@ command: b5 00 00 00
 #
 name: XM: SEARCH ALL CH
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b5 00 00 00
 #
@@ -9597,7 +9597,7 @@ command: b5 00 00 00
 #
 name: XM: ALL CHANNEL
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b5 00 00 00
 #
@@ -9609,7 +9609,7 @@ command: b6 00 00 00
 #
 name: XM: SEARCH CATEG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b6 00 00 00
 #
@@ -9663,7 +9663,7 @@ command: b6 00 00 00
 #
 name: XM: CATEGORY
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b6 00 00 00
 #
@@ -9675,7 +9675,7 @@ command: b7 00 00 00
 #
 name: XM: SEARCH PRESET
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b7 00 00 00
 #
@@ -9729,7 +9729,7 @@ command: b7 00 00 00
 #
 name: XM: PRESET
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b7 00 00 00
 #
@@ -9741,7 +9741,7 @@ command: b8 00 00 00
 #
 name: Z2: XM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: b8 00 00 00
 #
@@ -9813,7 +9813,7 @@ command: b8 00 00 00
 #
 name: Z2 INP: XM
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b8 00 00 00
 #
@@ -9861,7 +9861,7 @@ command: b9 00 00 00
 #
 name: Z3 INP: XM
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: b9 00 00 00
 #
@@ -9873,7 +9873,7 @@ command: ba 00 00 00
 #
 name: XM: PRESET PG A
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ba 00 00 00
 #
@@ -9921,7 +9921,7 @@ command: ba 00 00 00
 #
 name: XM: A
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ba 00 00 00
 #
@@ -9933,7 +9933,7 @@ command: bb 00 00 00
 #
 name: XM: PRESET PG B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: bb 00 00 00
 #
@@ -9975,7 +9975,7 @@ command: bb 00 00 00
 #
 name: XM: B
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: bb 00 00 00
 #
@@ -9987,7 +9987,7 @@ command: bc 00 00 00
 #
 name: XM: PRESET PG C
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: bc 00 00 00
 #
@@ -10029,13 +10029,13 @@ command: bc 00 00 00
 #
 name: TUNER: FM
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: bc 00 00 00
 #
 name: XM: C
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: bc 00 00 00
 #
@@ -10047,7 +10047,7 @@ command: bd 00 00 00
 #
 name: XM: PRESET PG D
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: bd 00 00 00
 #
@@ -10089,13 +10089,13 @@ command: bd 00 00 00
 #
 name: TUNER: AM
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: bd 00 00 00
 #
 name: XM: D
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: bd 00 00 00
 #
@@ -10107,7 +10107,7 @@ command: be 00 00 00
 #
 name: XM: PRESET PG E
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: be 00 00 00
 #
@@ -10149,7 +10149,7 @@ command: be 00 00 00
 #
 name: XM: E
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: be 00 00 00
 #
@@ -10161,7 +10161,7 @@ command: bf 00 00 00
 #
 name: XM: NUMERIC ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: bf 00 00 00
 #
@@ -10197,7 +10197,7 @@ command: bf 00 00 00
 #
 name: XM SETUP: ENTER
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: bf 00 00 00
 #
@@ -10293,7 +10293,7 @@ command: c0 00 00 00
 #
 name: MZ INP: CBL/SAT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: c0 00 00 00
 #
@@ -10347,7 +10347,7 @@ command: c1 00 00 00
 #
 name: INP DVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: c1 00 00 00
 #
@@ -10365,7 +10365,7 @@ command: c1 00 00 00
 #
 name: MZ INP: DVD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: c1 00 00 00
 #
@@ -10413,7 +10413,7 @@ command: c2 00 00 00
 #
 name: MZ: OSD TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: c2 00 00 00
 #
@@ -10449,7 +10449,7 @@ command: c2 00 00 00
 #
 name: OSD TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: c2 00 00 00
 #
@@ -10467,7 +10467,7 @@ command: c2 00 00 00
 #
 name: DISPLAY TOGGLE
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: c2 00 00 00
 #
@@ -10485,7 +10485,7 @@ command: c3 00 00 00
 #
 name: MZ: AUDIO TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: c3 00 00 00
 #
@@ -10521,7 +10521,7 @@ command: c3 00 00 00
 #
 name: INPUT MODE TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: c3 00 00 00
 #
@@ -10737,13 +10737,13 @@ command: c8 00 00 00
 #
 name: MZ INP: BD/HD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: c8 00 00 00
 #
 name: MD/CDR
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: c9 00 00 00
 #
@@ -10827,7 +10827,7 @@ command: c9 00 00 00
 #
 name: INP MD/CD-R
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: c9 00 00 00
 #
@@ -10965,7 +10965,7 @@ command: cc 00 00 00
 #
 name: Z2 INP: CBL/SAT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: cc 00 00 00
 #
@@ -11055,7 +11055,7 @@ command: cd 00 00 00
 #
 name: Z2 DVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: cd 00 00 00
 #
@@ -11073,7 +11073,7 @@ command: cd 00 00 00
 #
 name: Z2 INP: DVD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: cd 00 00 00
 #
@@ -11121,7 +11121,7 @@ command: ce 00 00 00
 #
 name: Z2 INP: BD/HD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ce 00 00 00
 #
@@ -11187,7 +11187,7 @@ command: cf 00 00 00
 #
 name: Z2 MD/CD-R
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: cf 00 00 00
 #
@@ -11223,7 +11223,7 @@ command: d0 00 00 00
 #
 name: Z2: PHONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d0 00 00 00
 #
@@ -11271,7 +11271,7 @@ command: d0 00 00 00
 #
 name: Z2 PHONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d0 00 00 00
 #
@@ -11289,7 +11289,7 @@ command: d0 00 00 00
 #
 name: Z2 INP: PHONO
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d0 00 00 00
 #
@@ -11379,7 +11379,7 @@ command: d1 00 00 00
 #
 name: Z2 CD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d1 00 00 00
 #
@@ -11391,7 +11391,7 @@ command: d1 00 00 00
 #
 name: Z2 INP: CD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d1 00 00 00
 #
@@ -11481,7 +11481,7 @@ command: d2 00 00 00
 #
 name: Z2 TUNER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d2 00 00 00
 #
@@ -11499,7 +11499,7 @@ command: d2 00 00 00
 #
 name: Z2 INP: TUNER
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d2 00 00 00
 #
@@ -11631,7 +11631,7 @@ command: d4 00 00 00
 #
 name: Z2 INP: MD/CD-R
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d4 00 00 00
 #
@@ -11733,7 +11733,7 @@ command: d6 00 00 00
 #
 name: Z2 VCR1(VCR)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d6 00 00 00
 #
@@ -11751,7 +11751,7 @@ command: d6 00 00 00
 #
 name: Z2 INP: VCR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d6 00 00 00
 #
@@ -11853,7 +11853,7 @@ command: d7 00 00 00
 #
 name: Z2 DVR/VCR2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d7 00 00 00
 #
@@ -11871,7 +11871,7 @@ command: d7 00 00 00
 #
 name: Z2 INP: DVR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d7 00 00 00
 #
@@ -11907,7 +11907,7 @@ command: d8 00 00 00
 #
 name: Z2: V-AUX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d8 00 00 00
 #
@@ -11931,7 +11931,7 @@ command: d8 00 00 00
 #
 name: Z2: V-AUX/DOCK
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d8 00 00 00
 #
@@ -11973,7 +11973,7 @@ command: d8 00 00 00
 #
 name: Z2 VOLUME (-)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d8 00 00 00
 #
@@ -11997,7 +11997,7 @@ command: d8 00 00 00
 #
 name: Z2 INP: V-AUX
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d8 00 00 00
 #
@@ -12099,7 +12099,7 @@ command: d9 00 00 00
 #
 name: Z2 DTV/CBL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: d9 00 00 00
 #
@@ -12123,7 +12123,7 @@ command: d9 00 00 00
 #
 name: Z2 INP: TV
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: d9 00 00 00
 #
@@ -12177,7 +12177,7 @@ command: da 00 00 00
 #
 name: Z2 VOLUME (+)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: da 00 00 00
 #
@@ -12189,7 +12189,7 @@ command: da 00 00 00
 #
 name: Z2: VOLUME UP
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: da 00 00 00
 #
@@ -12255,7 +12255,7 @@ command: db 00 00 00
 #
 name: Z2: VOLUME DOWN
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: db 00 00 00
 #
@@ -12321,7 +12321,7 @@ command: dc 00 00 00
 #
 name: Z2 MUTE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: dc 00 00 00
 #
@@ -12393,7 +12393,7 @@ command: dd 00 00 00
 #
 name: DSP PURE DIRECT TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: dd 00 00 00
 #
@@ -12423,7 +12423,7 @@ command: de 00 00 00
 #
 name: MENU: ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: de 00 00 00
 #
@@ -12435,7 +12435,7 @@ command: de 00 00 00
 #
 name: GUI: ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: de 00 00 00
 #
@@ -12477,7 +12477,7 @@ command: de 00 00 00
 #
 name: SET MENU ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: de 00 00 00
 #
@@ -12567,7 +12567,7 @@ command: e0 00 00 00
 #
 name: TUNER: A
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e0 00 00 00
 #
@@ -12639,7 +12639,7 @@ command: e1 00 00 00
 #
 name: TUNER: B
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e1 00 00 00
 #
@@ -12717,7 +12717,7 @@ command: e2 00 00 00
 #
 name: TUNER: C
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e2 00 00 00
 #
@@ -12789,7 +12789,7 @@ command: e3 00 00 00
 #
 name: TUNER: D
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e3 00 00 00
 #
@@ -12861,7 +12861,7 @@ command: e4 00 00 00
 #
 name: TUNER: E
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e4 00 00 00
 #
@@ -12927,13 +12927,13 @@ command: e5 00 00 00
 #
 name: TUN 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: e5 00 00 00
 #
 name: TUNER: 1
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e5 00 00 00
 #
@@ -12993,13 +12993,13 @@ command: e6 00 00 00
 #
 name: TUN 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: e6 00 00 00
 #
 name: TUNER: 2
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e6 00 00 00
 #
@@ -13059,13 +13059,13 @@ command: e7 00 00 00
 #
 name: TUN 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: e7 00 00 00
 #
 name: TUNER: 3
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e7 00 00 00
 #
@@ -13125,13 +13125,13 @@ command: e8 00 00 00
 #
 name: TUN 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: e8 00 00 00
 #
 name: TUNER: 4
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e8 00 00 00
 #
@@ -13191,13 +13191,13 @@ command: e9 00 00 00
 #
 name: TUN 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: e9 00 00 00
 #
 name: TUNER: 5
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: e9 00 00 00
 #
@@ -13257,13 +13257,13 @@ command: ea 00 00 00
 #
 name: TUN 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ea 00 00 00
 #
 name: TUNER: 6
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ea 00 00 00
 #
@@ -13329,13 +13329,13 @@ command: eb 00 00 00
 #
 name: TUN 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: eb 00 00 00
 #
 name: TUNER: 7
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: eb 00 00 00
 #
@@ -13395,13 +13395,13 @@ command: ec 00 00 00
 #
 name: TUN 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: ec 00 00 00
 #
 name: TUNER: 8
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ec 00 00 00
 #
@@ -13425,7 +13425,7 @@ command: ed 00 00 00
 #
 name: Z3: POWER ON
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ed 00 00 00
 #
@@ -13467,7 +13467,7 @@ command: ee 00 00 00
 #
 name: Z3: STANDBY
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ee 00 00 00
 #
@@ -13479,7 +13479,7 @@ command: f0 00 00 00
 #
 name: Z3: V-AUX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: f0 00 00 00
 #
@@ -13503,7 +13503,7 @@ command: f0 00 00 00
 #
 name: Z3: V-AUX/DOCK
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: f0 00 00 00
 #
@@ -13527,7 +13527,7 @@ command: f0 00 00 00
 #
 name: Z3 INP: V-AUX
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f0 00 00 00
 #
@@ -13539,7 +13539,7 @@ command: f1 00 00 00
 #
 name: Z3: PHONO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7a 00 00 00
 command: f1 00 00 00
 #
@@ -13587,7 +13587,7 @@ command: f1 00 00 00
 #
 name: Z3 INP: PHONO
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f1 00 00 00
 #
@@ -13641,7 +13641,7 @@ command: f2 00 00 00
 #
 name: Z3 INP: CD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f2 00 00 00
 #
@@ -13695,7 +13695,7 @@ command: f3 00 00 00
 #
 name: Z3 INP: TUNER
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f3 00 00 00
 #
@@ -13785,7 +13785,7 @@ command: f5 00 00 00
 #
 name: Z3 INP: MD/CD-R
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f5 00 00 00
 #
@@ -13845,7 +13845,7 @@ command: f6 00 00 00
 #
 name: Z3 INP: TV
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f6 00 00 00
 #
@@ -13893,7 +13893,7 @@ command: f7 00 00 00
 #
 name: Z3 INP: CBL/SAT
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f7 00 00 00
 #
@@ -13947,7 +13947,7 @@ command: f9 00 00 00
 #
 name: Z3 INP: VCR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: f9 00 00 00
 #
@@ -14007,7 +14007,7 @@ command: fa 00 00 00
 #
 name: Z3 INP: DVR
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: fa 00 00 00
 #
@@ -14037,7 +14037,7 @@ command: fb 00 00 00
 #
 name: Z3 INP: BD/HD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: fb 00 00 00
 #
@@ -14091,7 +14091,7 @@ command: fc 00 00 00
 #
 name: Z3 INP: DVD
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: fc 00 00 00
 #
@@ -14127,7 +14127,7 @@ command: fd 00 00 00
 #
 name: Z3: VOLUME UP
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: fd 00 00 00
 #
@@ -14163,7 +14163,7 @@ command: fe 00 00 00
 #
 name: Z3: VOLUME DOWN
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: fe 00 00 00
 #
@@ -14211,6 +14211,6 @@ command: ff 00 00 00
 #
 name: MUTE TOGGLE
 type: parsed
-protocol: NEC1-y2
+protocol: NEC
 address: 7a 00 00 00
 command: ff 00 00 00

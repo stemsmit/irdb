@@ -3,12 +3,12 @@ Version: 1
 #
 name: ALL PORTS ON
 type: parsed
-protocol: Velleman
+protocol: NEC
 address: 01 00 00 00
 command: 1f 00 00 00
 #
 name: ALL PORTS OFF
 type: parsed
-protocol: Velleman
+protocol: NEC
 address: 01 00 00 00
 command: 3f 00 00 00

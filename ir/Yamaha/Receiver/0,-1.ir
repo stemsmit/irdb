@@ -3,6 +3,6 @@ Version: 1
 #
 name: ZONE 2 ON
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 00 00 00 00
 command: 00 00 00 00

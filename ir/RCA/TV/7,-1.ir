@@ -3,6 +3,6 @@ Version: 1
 #
 name: VIDEO 2
 type: parsed
-protocol: RCA-38
+protocol: NEC
 address: 07 00 00 00
 command: 3a 00 00 00

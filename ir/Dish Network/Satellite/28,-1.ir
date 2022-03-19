@@ -3,12 +3,12 @@ Version: 1
 #
 name: VOLUME -
 type: parsed
-protocol: Barco
+protocol: NEC
 address: 1c 00 00 00
 command: 1d 00 00 00
 #
 name: VOLUME +
 type: parsed
-protocol: Barco
+protocol: NEC
 address: 1c 00 00 00
 command: 1e 00 00 00

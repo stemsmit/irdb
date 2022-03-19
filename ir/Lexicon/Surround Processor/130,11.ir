@@ -267,7 +267,7 @@ command: 0f 00 00 00
 #
 name: DTS (LISTING MODE)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 0f 00 00 00
 #
@@ -381,7 +381,7 @@ command: 17 00 00 00
 #
 name: VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 17 00 00 00
 #
@@ -417,7 +417,7 @@ command: 1a 00 00 00
 #
 name: MODE +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1a 00 00 00
 #
@@ -453,7 +453,7 @@ command: 1c 00 00 00
 #
 name: STAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1c 00 00 00
 #
@@ -597,7 +597,7 @@ command: 24 00 00 00
 #
 name: SAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 24 00 00 00
 #

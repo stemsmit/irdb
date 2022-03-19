@@ -3,49 +3,49 @@ Version: 1
 #
 name: CD STOP []
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 01 00 00 00
 #
 name: CD PLAY >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 02 00 00 00
 #
 name: CD PAUSE 
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 03 00 00 00
 #
 name: CD SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 04 00 00 00
 #
 name: CD SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 05 00 00 00
 #
 name: CD SEARCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 06 00 00 00
 #
 name: CD SEARCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 07 00 00 00
 #
 name: CD REPEAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 80 00 00 00
 command: 0a 00 00 00
 #

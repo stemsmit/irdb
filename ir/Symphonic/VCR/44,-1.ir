@@ -3,6 +3,6 @@ Version: 1
 #
 name: +100
 type: parsed
-protocol: Emerson
+protocol: NEC
 address: 2c 00 00 00
 command: 3d 00 00 00

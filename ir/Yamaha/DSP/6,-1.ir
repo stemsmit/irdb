@@ -3,6 +3,6 @@ Version: 1
 #
 name: AV POWER
 type: parsed
-protocol: Akai
+protocol: NEC
 address: 06 00 00 00
 command: 6f 00 00 00

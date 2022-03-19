@@ -33,7 +33,7 @@ command: 04 00 00 00
 #
 name: MULTI CH
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 04 00 00 00
 #
@@ -75,7 +75,7 @@ command: 18 00 00 00
 #
 name: DSP>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 18 00 00 00
 #
@@ -123,7 +123,7 @@ command: 18 00 00 00
 #
 name: DSP UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 18 00 00 00
 #
@@ -159,7 +159,7 @@ command: 19 00 00 00
 #
 name: DSP<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 19 00 00 00
 #
@@ -273,25 +273,25 @@ command: 1f 00 00 00
 #
 name: LEVEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: CHANNEL LEVEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: 6 UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
@@ -309,13 +309,13 @@ command: 42 00 00 00
 #
 name: LEVEL+
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: LEV UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
@@ -333,37 +333,37 @@ command: 42 00 00 00
 #
 name: CH LEVEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: LEVEL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: LEV +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: LEVEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: CHANNEL LEVEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: 9 DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
@@ -381,13 +381,13 @@ command: 43 00 00 00
 #
 name: LEVEL-
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: LEV DN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
@@ -399,25 +399,25 @@ command: 43 00 00 00
 #
 name: CH LEVEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: ENT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: LEVEL DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: LEV -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
@@ -477,7 +477,7 @@ command: 44 00 00 00
 #
 name: CH SEL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 44 00 00 00
 #
@@ -543,7 +543,7 @@ command: 47 00 00 00
 #
 name: RECIEVER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 47 00 00 00
 #
@@ -603,7 +603,7 @@ command: 4c 00 00 00
 #
 name: STEREO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 4c 00 00 00
 #
@@ -675,7 +675,7 @@ command: 4d 00 00 00
 #
 name: SURROUND
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 4d 00 00 00
 #
@@ -723,7 +723,7 @@ command: 4e 00 00 00
 #
 name: THX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 4e 00 00 00
 #
@@ -789,7 +789,7 @@ command: 52 00 00 00
 #
 name: ALL ST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 52 00 00 00
 #
@@ -831,7 +831,7 @@ command: 54 00 00 00
 #
 name: RETURN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 54 00 00 00
 #
@@ -945,7 +945,7 @@ command: 8c 00 00 00
 #
 name: DVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 8c 00 00 00
 #
@@ -1191,7 +1191,7 @@ command: d3 00 00 00
 #
 name: PURE AUDIO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: d3 00 00 00
 #
@@ -1221,7 +1221,7 @@ command: d4 00 00 00
 #
 name: MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: d4 00 00 00
 #
@@ -1311,7 +1311,7 @@ command: d6 00 00 00
 #
 name: RE EQ
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: d6 00 00 00
 #
@@ -1347,7 +1347,7 @@ command: d7 00 00 00
 #
 name: LATE NITE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: d7 00 00 00
 #

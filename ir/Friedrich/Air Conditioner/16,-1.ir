@@ -3,6 +3,6 @@ Version: 1
 #
 name: POWER
 type: parsed
-protocol: Fujitsu
+protocol: NEC
 address: 10 00 00 00
 command: 02 00 00 00

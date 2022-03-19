@@ -3,18 +3,18 @@ Version: 1
 #
 name: VOLUME +
 type: parsed
-protocol: Zenith
+protocol: NEC
 address: 05 00 00 00
 command: 02 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: Zenith
+protocol: NEC
 address: 05 00 00 00
 command: 0a 00 00 00
 #
 name: MUTE
 type: parsed
-protocol: Zenith
+protocol: NEC
 address: 05 00 00 00
 command: 0b 00 00 00

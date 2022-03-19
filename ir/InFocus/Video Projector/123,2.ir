@@ -15,7 +15,7 @@ command: 01 00 00 00
 #
 name: WIDESCREEN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 02 00 00 00
 #
@@ -27,7 +27,7 @@ command: 03 00 00 00
 #
 name: EXIT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 11 00 00 00
 #
@@ -39,7 +39,7 @@ command: 12 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 13 00 00 00
 #
@@ -75,13 +75,13 @@ command: 18 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 19 00 00 00
 #
 name: PC1 ANALOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 1a 00 00 00
 #
@@ -93,36 +93,36 @@ command: 1b 00 00 00
 #
 name: COMP HDTV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 1c 00 00 00
 #
 name: COMP INT.
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 1d 00 00 00
 #
 name: S-VIDEO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 1e 00 00 00
 #
 name: VIDEO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 1f 00 00 00
 #
 name: PC HDTV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 40 00 00 00
 #
 name: PC VGA
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 7b 00 00 00
 command: 41 00 00 00

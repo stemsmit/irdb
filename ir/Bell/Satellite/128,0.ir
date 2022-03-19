@@ -3,12 +3,12 @@ Version: 1
 #
 name: VOLUME +
 type: parsed
-protocol: Panasonic
+protocol: NEC
 address: 80 00 00 00
 command: 20 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: Panasonic
+protocol: NEC
 address: 80 00 00 00
 command: 21 00 00 00

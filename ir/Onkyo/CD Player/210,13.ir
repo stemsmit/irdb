@@ -3,61 +3,61 @@ Version: 1
 #
 name: TAPE FAST FWD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: TAPE FF >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: TAPE FFWD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: TAPE FAST REW <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
 name: TAPE REW <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
 name: TAPE REV <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
 name: TAPE VOL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: TAPE VOLUME ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: TAPE VOL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: TAPE VOLUME V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
@@ -231,13 +231,13 @@ command: 9f 00 00 00
 #
 name: TAPE EDIT >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c2 00 00 00
 #
 name: TAPE EDIT <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c3 00 00 00
 #

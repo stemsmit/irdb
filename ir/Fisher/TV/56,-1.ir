@@ -33,7 +33,7 @@ command: 06 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 38 00 00 00
 command: 07 00 00 00
 #
@@ -51,7 +51,7 @@ command: 09 00 00 00
 #
 name: CHANNEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 38 00 00 00
 command: 0a 00 00 00
 #
@@ -75,13 +75,13 @@ command: 0e 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 38 00 00 00
 command: 0f 00 00 00
 #
 name: POWER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 38 00 00 00
 command: 12 00 00 00
 #

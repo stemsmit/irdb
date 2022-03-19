@@ -3,13 +3,13 @@ Version: 1
 #
 name: SEARCH +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: SEARCH -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
@@ -99,25 +99,25 @@ command: 9f 00 00 00
 #
 name: MENU UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c0 00 00 00
 #
 name: MENU DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c1 00 00 00
 #
 name: MENU LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c2 00 00 00
 #
 name: MENU RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c3 00 00 00
 #

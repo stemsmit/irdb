@@ -3,12 +3,12 @@ Version: 1
 #
 name: CD-SYNC STANDBY
 type: parsed
-protocol: Sony12
+protocol: NEC
 address: 11 00 00 00
 command: 32 00 00 00
 #
 name: CD-SYNC STOP
 type: parsed
-protocol: Sony12
+protocol: NEC
 address: 11 00 00 00
 command: 38 00 00 00

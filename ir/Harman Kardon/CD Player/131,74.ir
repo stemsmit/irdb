@@ -3,7 +3,7 @@ Version: 1
 #
 name: SEARCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 00 00 00 00
 #
@@ -15,7 +15,7 @@ command: 00 00 00 00
 #
 name: SEARCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 01 00 00 00
 #
@@ -27,7 +27,7 @@ command: 01 00 00 00
 #
 name: PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 03 00 00 00
 #
@@ -39,7 +39,7 @@ command: 03 00 00 00
 #
 name: SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 04 00 00 00
 #
@@ -51,7 +51,7 @@ command: 04 00 00 00
 #
 name: SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 05 00 00 00
 #
@@ -63,7 +63,7 @@ command: 05 00 00 00
 #
 name: PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 07 00 00 00
 #
@@ -75,7 +75,7 @@ command: 07 00 00 00
 #
 name: DELETE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 0a 00 00 00
 #
@@ -87,7 +87,7 @@ command: 0a 00 00 00
 #
 name: STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 0b 00 00 00
 #
@@ -99,7 +99,7 @@ command: 0b 00 00 00
 #
 name: REPEAT 1/ALL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 0c 00 00 00
 #
@@ -111,7 +111,7 @@ command: 0c 00 00 00
 #
 name: REPEAT A-B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 0d 00 00 00
 #
@@ -123,7 +123,7 @@ command: 0d 00 00 00
 #
 name: EDIT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 0e 00 00 00
 #
@@ -135,7 +135,7 @@ command: 0e 00 00 00
 #
 name: TIME
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 0f 00 00 00
 #
@@ -147,7 +147,7 @@ command: 0f 00 00 00
 #
 name: INTRO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 10 00 00 00
 #
@@ -159,7 +159,7 @@ command: 10 00 00 00
 #
 name: RANDOM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 11 00 00 00
 #
@@ -171,7 +171,7 @@ command: 11 00 00 00
 #
 name: DISPLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 12 00 00 00
 #
@@ -183,7 +183,7 @@ command: 12 00 00 00
 #
 name: DISC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 13 00 00 00
 #
@@ -195,7 +195,7 @@ command: 13 00 00 00
 #
 name: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 14 00 00 00
 #
@@ -207,7 +207,7 @@ command: 14 00 00 00
 #
 name: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 15 00 00 00
 #
@@ -219,7 +219,7 @@ command: 15 00 00 00
 #
 name: PROG/REV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 16 00 00 00
 #
@@ -231,7 +231,7 @@ command: 16 00 00 00
 #
 name: TAPE SIZE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 17 00 00 00
 #
@@ -243,7 +243,7 @@ command: 17 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 18 00 00 00
 #
@@ -255,7 +255,7 @@ command: 18 00 00 00
 #
 name: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 19 00 00 00
 #
@@ -267,7 +267,7 @@ command: 19 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 1a 00 00 00
 #
@@ -279,7 +279,7 @@ command: 1a 00 00 00
 #
 name: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 1b 00 00 00
 #
@@ -291,7 +291,7 @@ command: 1b 00 00 00
 #
 name: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 1c 00 00 00
 #
@@ -303,7 +303,7 @@ command: 1c 00 00 00
 #
 name: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 1d 00 00 00
 #
@@ -315,7 +315,7 @@ command: 1d 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 1e 00 00 00
 #
@@ -327,7 +327,7 @@ command: 1e 00 00 00
 #
 name: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 1f 00 00 00
 #

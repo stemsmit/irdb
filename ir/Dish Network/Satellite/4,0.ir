@@ -3,6 +3,6 @@ Version: 1
 #
 name: SAT
 type: parsed
-protocol: Dish_Network
+protocol: NEC
 address: 04 00 00 00
 command: 29 00 00 00

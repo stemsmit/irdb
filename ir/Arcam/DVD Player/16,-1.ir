@@ -3,24 +3,24 @@ Version: 1
 #
 name: +
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 10 00 00 00
 command: 10 00 00 00
 #
 name: +A
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 10 00 00 00
 command: 10 00 00 00
 #
 name: -
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 10 00 00 00
 command: 11 00 00 00
 #
 name: -A
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 10 00 00 00
 command: 11 00 00 00

@@ -3,12 +3,12 @@ Version: 1
 #
 name: INPUT
 type: parsed
-protocol: Panasonic_Old
+protocol: NEC
 address: 19 00 00 00
 command: 05 00 00 00
 #
 name: RECALL
 type: parsed
-protocol: Panasonic_Old
+protocol: NEC
 address: 19 00 00 00
 command: 33 00 00 00

@@ -3,6 +3,6 @@ Version: 1
 #
 name: POWER
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: aa 00 00 00
 command: 1c 00 00 00

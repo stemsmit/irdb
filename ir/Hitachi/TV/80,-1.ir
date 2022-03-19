@@ -459,7 +459,7 @@ command: 17 00 00 00
 #
 name: OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: 17 00 00 00
 #
@@ -675,7 +675,7 @@ command: 22 00 00 00
 #
 name: VIDEO 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: 22 00 00 00
 #
@@ -735,7 +735,7 @@ command: 2c 00 00 00
 #
 name: INPUT VIDEO 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: 2d 00 00 00
 #
@@ -819,7 +819,7 @@ command: 3d 00 00 00
 #
 name: VIDEO 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: 3d 00 00 00
 #
@@ -1167,7 +1167,7 @@ command: 76 00 00 00
 #
 name: CHANNEL / PAGE +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: a0 00 00 00
 #
@@ -1185,18 +1185,18 @@ command: ac 00 00 00
 #
 name: CHANNEL / PAGE -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: b0 00 00 00
 #
 name: VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: c0 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 50 00 00 00
 command: d0 00 00 00

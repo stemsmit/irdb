@@ -3,12 +3,12 @@ Version: 1
 #
 name: MUTE
 type: parsed
-protocol: Dish_Network
+protocol: NEC
 address: 10 00 00 00
 command: 15 00 00 00
 #
 name: MUTE
 type: parsed
-protocol: Dish_Network
+protocol: NEC
 address: 10 00 00 00
 command: 28 00 00 00

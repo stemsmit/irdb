@@ -3,6 +3,6 @@ Version: 1
 #
 name: OUTPUT 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: a2 00 00 00
 command: d7 00 00 00

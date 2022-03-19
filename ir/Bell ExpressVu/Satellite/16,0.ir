@@ -3,12 +3,12 @@ Version: 1
 #
 name: VOLUME +
 type: parsed
-protocol: Dish_Network
+protocol: NEC
 address: 10 00 00 00
 command: 19 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: Dish_Network
+protocol: NEC
 address: 10 00 00 00
 command: 1d 00 00 00

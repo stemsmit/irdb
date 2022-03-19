@@ -3,6 +3,6 @@ Version: 1
 #
 name: 3 STOP
 type: parsed
-protocol: JVC
+protocol: NEC
 address: c3 00 00 00
 command: 3c 00 00 00

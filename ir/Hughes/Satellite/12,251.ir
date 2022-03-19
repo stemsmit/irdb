@@ -177,7 +177,7 @@ command: 10 00 00 00
 #
 name: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 0c 00 00 00
 command: 10 00 00 00
 #
@@ -267,7 +267,7 @@ command: 14 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 0c 00 00 00
 command: 14 00 00 00
 #
@@ -363,7 +363,7 @@ command: 17 00 00 00
 #
 name: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 0c 00 00 00
 command: 17 00 00 00
 #
@@ -483,7 +483,7 @@ command: 37 00 00 00
 #
 name: HDSD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 0c 00 00 00
 command: 37 00 00 00
 #

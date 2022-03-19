@@ -3,6 +3,6 @@ Version: 1
 #
 name: QUIT
 type: parsed
-protocol: Zenith
+protocol: NEC
 address: 07 00 00 00
 command: 0e 00 00 00

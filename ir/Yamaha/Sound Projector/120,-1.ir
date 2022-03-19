@@ -399,7 +399,7 @@ command: 68 00 00 00
 #
 name: DEMO 1 ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 6b 00 00 00
 #
@@ -411,7 +411,7 @@ command: 6b 00 00 00
 #
 name: DEMO 1 OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 6c 00 00 00
 #
@@ -423,13 +423,13 @@ command: 6c 00 00 00
 #
 name: TRUBASS MID
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 6d 00 00 00
 #
 name: DEMO 2 ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 6d 00 00 00
 #
@@ -447,13 +447,13 @@ command: 6d 00 00 00
 #
 name: TRUBASS DEEP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 6e 00 00 00
 #
 name: DEMO 2 OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 6e 00 00 00
 #
@@ -471,7 +471,7 @@ command: 6e 00 00 00
 #
 name: TRUBASS OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 6f 00 00 00
 #
@@ -597,7 +597,7 @@ command: 7b 00 00 00
 #
 name: TV EQUAL VOL ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 7c 00 00 00
 #
@@ -663,7 +663,7 @@ command: 8a 00 00 00
 #
 name: TRUBASS TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 8b 00 00 00
 #
@@ -771,7 +771,7 @@ command: 9b 00 00 00
 #
 name: DSP OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: 9b 00 00 00
 #
@@ -915,7 +915,7 @@ command: a3 00 00 00
 #
 name: AUTO INTELLIBEAM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: a3 00 00 00
 #
@@ -1311,13 +1311,13 @@ command: c5 00 00 00
 #
 name: BEAM-TARGET
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: c5 00 00 00
 #
 name: BEAM-MY BEAM AUTO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: c5 00 00 00
 #
@@ -1389,7 +1389,7 @@ command: d9 00 00 00
 #
 name: DSP MOVIE TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: d9 00 00 00
 #
@@ -1419,7 +1419,7 @@ command: da 00 00 00
 #
 name: DSP MUSIC TOG
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 78 00 00 00
 command: da 00 00 00
 #

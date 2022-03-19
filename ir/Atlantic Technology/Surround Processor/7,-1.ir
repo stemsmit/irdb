@@ -3,6 +3,6 @@ Version: 1
 #
 name: SELECT
 type: parsed
-protocol: RCA-38
+protocol: NEC
 address: 07 00 00 00
 command: 3c 00 00 00

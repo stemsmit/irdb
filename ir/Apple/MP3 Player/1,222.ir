@@ -33,55 +33,55 @@ command: 0b 00 00 00
 #
 name: NEXT CHAPTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 0c 00 00 00
 #
 name: PREV CHAPTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 0d 00 00 00
 #
 name: STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 0e 00 00 00
 #
 name: PLAY/RESUME
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 0f 00 00 00
 #
 name: PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 10 00 00 00
 #
 name: MUTE TOGGLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 11 00 00 00
 #
 name: NEXT PLAYLIST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 14 00 00 00
 #
 name: PREVIOUS PLAYLIST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 15 00 00 00
 #
 name: SHUFFLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 16 00 00 00
 #
@@ -93,19 +93,19 @@ command: 17 00 00 00
 #
 name: REPEAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 18 00 00 00
 #
 name: POWER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 1a 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 01 00 00 00
 command: 1b 00 00 00
 #

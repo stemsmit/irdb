@@ -3,6 +3,6 @@ Version: 1
 #
 name: AUDIO
 type: parsed
-protocol: Panasonic_Old
+protocol: NEC
 address: 09 00 00 00
 command: 20 00 00 00

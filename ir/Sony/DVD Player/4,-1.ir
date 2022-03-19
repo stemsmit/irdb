@@ -3,6 +3,6 @@ Version: 1
 #
 name: POWER OFF (ALT.)
 type: parsed
-protocol: Sony15
+protocol: NEC
 address: 04 00 00 00
 command: 37 00 00 00

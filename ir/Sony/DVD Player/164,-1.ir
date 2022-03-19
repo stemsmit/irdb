@@ -3,6 +3,6 @@ Version: 1
 #
 name: WIDE MODE
 type: parsed
-protocol: Sony15
+protocol: NEC
 address: a4 00 00 00
 command: 3d 00 00 00

@@ -3,7 +3,7 @@ Version: 1
 #
 name: MUTE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 01 00 00 00
 #
@@ -15,43 +15,43 @@ command: 01 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 02 00 00 00
 #
 name: VOL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 02 00 00 00
 #
 name: VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 03 00 00 00
 #
 name: VOL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 03 00 00 00
 #
 name: INPUT - AM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 05 00 00 00
 #
 name: INP - AMFM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 06 00 00 00
 #
 name: AM/FM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 06 00 00 00
 #
@@ -81,19 +81,19 @@ command: 0a 00 00 00
 #
 name: VCR
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 0d 00 00 00
 #
 name: INP - TV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 0e 00 00 00
 #
 name: TV
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 0e 00 00 00
 #
@@ -105,13 +105,13 @@ command: 0e 00 00 00
 #
 name: INP - AUX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 0f 00 00 00
 #
 name: AUX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 0f 00 00 00
 #
@@ -135,25 +135,25 @@ command: 14 00 00 00
 #
 name: INP - CBL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 15 00 00 00
 #
 name: SAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 15 00 00 00
 #
 name: CABLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 15 00 00 00
 #
 name: CBL/SAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 15 00 00 00
 #
@@ -165,13 +165,13 @@ command: 15 00 00 00
 #
 name: CHAP/TRK -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 18 00 00 00
 #
 name: CHANNEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 18 00 00 00
 #
@@ -183,13 +183,13 @@ command: 18 00 00 00
 #
 name: CHAP/TRK +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 19 00 00 00
 #
 name: CHANNEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 19 00 00 00
 #
@@ -201,13 +201,13 @@ command: 19 00 00 00
 #
 name: TRANS - STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 1a 00 00 00
 #
 name: STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 1a 00 00 00
 #
@@ -219,19 +219,19 @@ command: 1a 00 00 00
 #
 name: ARROW DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 20 00 00 00
 #
 name: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 20 00 00 00
 #
 name: FM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 25 00 00 00
 #
@@ -243,7 +243,7 @@ command: 25 00 00 00
 #
 name: AM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 28 00 00 00
 #
@@ -255,13 +255,13 @@ command: 28 00 00 00
 #
 name: EXIT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 30 00 00 00
 #
 name: MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 30 00 00 00
 #
@@ -273,7 +273,7 @@ command: 30 00 00 00
 #
 name: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 40 00 00 00
 #
@@ -285,7 +285,7 @@ command: 40 00 00 00
 #
 name: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 41 00 00 00
 #
@@ -297,7 +297,7 @@ command: 41 00 00 00
 #
 name: 2
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 42 00 00 00
 #
@@ -309,7 +309,7 @@ command: 42 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 43 00 00 00
 #
@@ -321,7 +321,7 @@ command: 43 00 00 00
 #
 name: 4
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 44 00 00 00
 #
@@ -333,7 +333,7 @@ command: 44 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 45 00 00 00
 #
@@ -345,7 +345,7 @@ command: 45 00 00 00
 #
 name: 6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 46 00 00 00
 #
@@ -357,7 +357,7 @@ command: 46 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 47 00 00 00
 #
@@ -369,7 +369,7 @@ command: 47 00 00 00
 #
 name: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 48 00 00 00
 #
@@ -381,7 +381,7 @@ command: 48 00 00 00
 #
 name: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 49 00 00 00
 #
@@ -393,13 +393,13 @@ command: 49 00 00 00
 #
 name: POWER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 4c 00 00 00
 #
 name: POWER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 4c 00 00 00
 #
@@ -423,31 +423,31 @@ command: 52 00 00 00
 #
 name: INP - CDDVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 53 00 00 00
 #
 name: DVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 53 00 00 00
 #
 name: CD/DVD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 53 00 00 00
 #
 name: TRANS - PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 55 00 00 00
 #
 name: PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 55 00 00 00
 #
@@ -459,13 +459,13 @@ command: 55 00 00 00
 #
 name: TRANS - PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 56 00 00 00
 #
 name: PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 56 00 00 00
 #
@@ -477,19 +477,19 @@ command: 56 00 00 00
 #
 name: TRANS - SEEK <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 57 00 00 00
 #
 name: SEEK -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 57 00 00 00
 #
 name: SEEK/SCAN <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 57 00 00 00
 #
@@ -501,19 +501,19 @@ command: 57 00 00 00
 #
 name: TRANS - SEEK >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 58 00 00 00
 #
 name: SEEK +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 58 00 00 00
 #
 name: SEEK/SCAN >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 58 00 00 00
 #
@@ -525,7 +525,7 @@ command: 58 00 00 00
 #
 name: INPUT - FM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 59 00 00 00
 #
@@ -543,7 +543,7 @@ command: 5a 00 00 00
 #
 name: SHUFFLE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 5c 00 00 00
 #
@@ -555,55 +555,55 @@ command: 5d 00 00 00
 #
 name: ARROW RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 60 00 00 00
 #
 name: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 60 00 00 00
 #
 name: CD #
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 63 00 00 00
 #
 name: INFO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 64 00 00 00
 #
 name: ENCORE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 65 00 00 00
 #
 name: UMUSIC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 66 00 00 00
 #
 name: WHOLE CD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 67 00 00 00
 #
 name: PG DN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 68 00 00 00
 #
 name: RATING -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 68 00 00 00
 #
@@ -615,13 +615,13 @@ command: 68 00 00 00
 #
 name: PG UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 69 00 00 00
 #
 name: RATING +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 69 00 00 00
 #
@@ -633,7 +633,7 @@ command: 69 00 00 00
 #
 name: SYSTEM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 70 00 00 00
 #
@@ -645,7 +645,7 @@ command: 70 00 00 00
 #
 name: SETTINGS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 80 00 00 00
 #
@@ -657,7 +657,7 @@ command: 80 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 8c 00 00 00
 #
@@ -669,13 +669,13 @@ command: 8c 00 00 00
 #
 name: MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 90 00 00 00
 #
 name: DVD MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 90 00 00 00
 #
@@ -687,7 +687,7 @@ command: 90 00 00 00
 #
 name: REPEAT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 9d 00 00 00
 #
@@ -699,37 +699,37 @@ command: 9d 00 00 00
 #
 name: PLAYLIST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: 9f 00 00 00
 #
 name: ARROW LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: a0 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: a0 00 00 00
 #
 name: ZOOM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: b0 00 00 00
 #
 name: LIBRARY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: b0 00 00 00
 #
 name: STORED
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: b3 00 00 00
 #
@@ -741,19 +741,19 @@ command: b3 00 00 00
 #
 name: ARROW UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: c0 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: c0 00 00 00
 #
 name: POWER OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: cc 00 00 00
 #
@@ -765,7 +765,7 @@ command: cc 00 00 00
 #
 name: GUIDE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: d0 00 00 00
 #
@@ -783,7 +783,7 @@ command: dc 00 00 00
 #
 name: ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: ba 00 00 00
 command: e0 00 00 00
 #

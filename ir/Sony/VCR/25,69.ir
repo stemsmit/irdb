@@ -3,12 +3,12 @@ Version: 1
 #
 name: SEARCH SELECT
 type: parsed
-protocol: Sony20
+protocol: NEC
 address: 19 00 00 00
 command: 2d 00 00 00
 #
 name: PRINT
 type: parsed
-protocol: Sony20
+protocol: NEC
 address: 19 00 00 00
 command: 6e 00 00 00

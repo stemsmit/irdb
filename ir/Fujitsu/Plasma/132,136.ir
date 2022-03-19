@@ -3,6 +3,6 @@ Version: 1
 #
 name: AUTO
 type: parsed
-protocol: Fujitsu
+protocol: NEC
 address: 84 00 00 00
 command: 11 00 00 00

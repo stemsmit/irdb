@@ -3,6 +3,6 @@ Version: 1
 #
 name: RR
 type: parsed
-protocol: MCE
+protocol: NEC
 address: 01 00 00 00
 command: 20 00 00 00

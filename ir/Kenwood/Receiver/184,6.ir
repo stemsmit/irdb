@@ -75,7 +75,7 @@ command: 82 00 00 00
 #
 name: ZONE B ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b8 00 00 00
 command: 83 00 00 00
 #
@@ -93,6 +93,6 @@ command: 89 00 00 00
 #
 name: RELAY ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b8 00 00 00
 command: 89 00 00 00

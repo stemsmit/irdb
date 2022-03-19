@@ -9,6 +9,6 @@ command: 53 00 00 00
 #
 name: CHANNEL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 83 00 00 00
 command: 57 00 00 00

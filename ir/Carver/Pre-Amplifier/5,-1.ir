@@ -3,6 +3,6 @@ Version: 1
 #
 name: VCR
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 05 00 00 00
 command: 3f 00 00 00

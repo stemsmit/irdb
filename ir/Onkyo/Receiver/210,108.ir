@@ -39,37 +39,37 @@ command: 1f 00 00 00
 #
 name: LEVEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: LEVEL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: SURR CH SEL +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: LEVEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: LEVEL DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: SURR CH SEL -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #

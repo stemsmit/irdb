@@ -3,7 +3,7 @@ Version: 1
 #
 name: TV ANY ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 #
@@ -15,7 +15,7 @@ command: 00 00 00 00
 #
 name: TV ANY V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 #
@@ -27,7 +27,7 @@ command: 01 00 00 00
 #
 name: TV VOLUME ^ (>)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 #
@@ -39,7 +39,7 @@ command: 02 00 00 00
 #
 name: TV VOLUME V (<)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 #

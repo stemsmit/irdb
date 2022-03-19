@@ -3,6 +3,6 @@ Version: 1
 #
 name: POWER OFF
 type: parsed
-protocol: Panasonic
+protocol: NEC
 address: a0 00 00 00
 command: 3d 00 00 00

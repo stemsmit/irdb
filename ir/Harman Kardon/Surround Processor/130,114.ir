@@ -3,43 +3,43 @@ Version: 1
 #
 name: CASS FAST FORWARD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: CASS REWIND
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: CASS DECK STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: CASS SEARCH>>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: CASS SEARCH<<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: CASS RECORD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: CASS SELECT A/B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1d 00 00 00
 #
@@ -135,19 +135,19 @@ command: 84 00 00 00
 #
 name: OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 89 00 00 00
 #
 name: DELAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8a 00 00 00
 #
 name: TEST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8c 00 00 00
 #
@@ -159,19 +159,19 @@ command: 8c 00 00 00
 #
 name: CENT MODE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8d 00 00 00
 #
 name: THEATER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 92 00 00 00
 #
 name: STADIUM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 94 00 00 00
 #
@@ -195,13 +195,13 @@ command: 9b 00 00 00
 #
 name: 3-CH
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9d 00 00 00
 #
 name: PRO-LOGIC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9f 00 00 00
 #

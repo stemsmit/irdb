@@ -3,6 +3,6 @@ Version: 1
 #
 name: NITE MODE
 type: parsed
-protocol: Sony15
+protocol: NEC
 address: 90 00 00 00
 command: 20 00 00 00

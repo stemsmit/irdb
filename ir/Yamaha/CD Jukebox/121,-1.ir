@@ -249,7 +249,7 @@ command: 50 00 00 00
 #
 name: +1 DISC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 79 00 00 00
 command: 51 00 00 00
 #

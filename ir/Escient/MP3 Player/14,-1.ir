@@ -3,12 +3,12 @@ Version: 1
 #
 name: EXIT
 type: parsed
-protocol: RCA-38
+protocol: NEC
 address: 0e 00 00 00
 command: 06 00 00 00
 #
 name: ENTER
 type: parsed
-protocol: RCA-38
+protocol: NEC
 address: 0e 00 00 00
 command: 53 00 00 00

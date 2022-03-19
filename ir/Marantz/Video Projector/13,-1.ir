@@ -3,18 +3,18 @@ Version: 1
 #
 name: COMP 1
 type: parsed
-protocol: Sharp
+protocol: NEC
 address: 0d 00 00 00
 command: 1a 00 00 00
 #
 name: POWER ON
 type: parsed
-protocol: Sharp
+protocol: NEC
 address: 0d 00 00 00
 command: 56 00 00 00
 #
 name: POWER OFF
 type: parsed
-protocol: Sharp
+protocol: NEC
 address: 0d 00 00 00
 command: 96 00 00 00

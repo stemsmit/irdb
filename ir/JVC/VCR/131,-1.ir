@@ -3,30 +3,30 @@ Version: 1
 #
 name: TAPE STOP []
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 83 00 00 00
 command: 03 00 00 00
 #
 name: TAPE >>
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 83 00 00 00
 command: 06 00 00 00
 #
 name: TAPE <<
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 83 00 00 00
 command: 07 00 00 00
 #
 name: TAPE PLAY >
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 83 00 00 00
 command: 0c 00 00 00
 #
 name: TAPE PAUSE 
 type: parsed
-protocol: JVC
+protocol: NEC
 address: 83 00 00 00
 command: 0d 00 00 00

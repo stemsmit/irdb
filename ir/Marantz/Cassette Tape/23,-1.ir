@@ -3,6 +3,6 @@ Version: 1
 #
 name: REC MUTE
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 17 00 00 00
 command: 2a 00 00 00

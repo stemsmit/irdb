@@ -3,157 +3,157 @@ Version: 1
 #
 name: TUNER PRESET >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: TUNER STATION + (CH)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: PRESETUP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: TUNER PRESET +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: PRESET +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: CH+
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: TUNER PRESET ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 00 00 00 00
 #
 name: TUNER PRESET <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: TUNER STATION - (CH)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: PRESETDOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: TUNER PRESET -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: PRESET -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: CH-
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: TUNER PRESET V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 01 00 00 00
 #
 name: VOLUME UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: VOLUME ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: VOLUP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: VOLUME +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: MASTER VOLUME UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: MASTER VOL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 02 00 00 00
 #
 name: VOLUME DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
 name: VOLUME V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
 name: VOLDOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
 name: VOLUME -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
 name: MASTER VOLUME DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
 name: MASTER VOL DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 03 00 00 00
 #
@@ -717,49 +717,49 @@ command: 1f 00 00 00
 #
 name: REAR LEVEL ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: REAR BALANCE UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: REAR LEVEL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: REAR/SIMUL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 42 00 00 00
 #
 name: REAR LEVEL V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: REAR BALANCE DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: REAR LEVEL DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
 name: REAR/SIMUL DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 43 00 00 00
 #
@@ -1125,121 +1125,121 @@ command: 5f 00 00 00
 #
 name: CENTER LEVEL ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: CENTER UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: CENTER LEVEL UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 80 00 00 00
 #
 name: CENTER LEVEL V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
 name: CENTER DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
 name: CENTER LEVEL DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 81 00 00 00
 #
 name: CURSOR ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: MENU UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 82 00 00 00
 #
 name: CURSOR V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: MENU DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 83 00 00 00
 #
 name: CURSOR <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
 name: MENU LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 84 00 00 00
 #
 name: CURSOR >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
 name: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
 name: MENU RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 85 00 00 00
 #
 name: CD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 8a 00 00 00
 #
 name: CD <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: 8b 00 00 00
 #
@@ -1419,73 +1419,73 @@ command: 9f 00 00 00
 #
 name: REAR BALANCE L
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c0 00 00 00
 #
 name: REAR/SIMUL L BALANCE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c0 00 00 00
 #
 name: REAR BALANCE R
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c1 00 00 00
 #
 name: REAR/SIMUL R BALANCE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c1 00 00 00
 #
 name: MULTI SOURCE LVL ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c2 00 00 00
 #
 name: MULTI SOURCE ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c2 00 00 00
 #
 name: MULTI SOURCE LVL V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c3 00 00 00
 #
 name: MULTI SOURCE V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: c3 00 00 00
 #
 name: DAT >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: ca 00 00 00
 #
 name: DAT FFWD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: ca 00 00 00
 #
 name: DAT <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cb 00 00 00
 #
 name: DAT REW <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: d2 00 00 00
 command: cb 00 00 00
 #

@@ -3,373 +3,373 @@ Version: 1
 #
 name: CAS.PLAY >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: CASS PLAY >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: CASS_TRACK+
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: CASS FAST FORWARD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: CASS.DECK PLAY >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: TAPE1 PLAY >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: TAPE PLAY > (AF)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 01 00 00 00
 #
 name: CAS.REV.PLAY <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: CASS REV PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: CASS REV.PLAY <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: CASS_TRACK-
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: CASS REWIND
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: CASS.DECK REV PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: TAPE1 REV PLAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: TAPE REV PLAY < (FM)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 02 00 00 00
 #
 name: CAS.STOP []
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: CASS STOP []
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: CASS_STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: CASS DECK STOP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: CASS.DECK STOP []
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: TAPE1 STOP []
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: TAPE STOP [] (RDS)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 03 00 00 00
 #
 name: CAS.F.FWD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: CASS FWD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: CASS F.FWD >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: CASS_SCAN+
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: CASS SEARCH>>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: CASS.DECK FF >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: TUNING +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: TAPE1 TUNE/SRCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: TAPE TUNE/SCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 04 00 00 00
 #
 name: CAS.REW <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: CASS REW <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: CASS_SCAN-
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: CASS SEARCH<<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: CASS.DECK REW <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: TUNING -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: TAPE1 TUNE/SRCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: TAPE TUNE/SCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 05 00 00 00
 #
 name: CAS.REC/PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: CASS REC/PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: CASS_PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: CASS RECORD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: CASS.DECK REC/PAUSE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: TAPE1 PAUSE 
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: TAPE REC/PAUSE (PTY)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 06 00 00 00
 #
 name: CAS.SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 08 00 00 00
 #
 name: CASS SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 08 00 00 00
 #
 name: CASS.DECK SRCH >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 08 00 00 00
 #
 name: TAPE1 CHAN/SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 08 00 00 00
 #
 name: TAPE SKIP >>
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 08 00 00 00
 #
 name: CAS.SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 09 00 00 00
 #
 name: CASS SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 09 00 00 00
 #
 name: CASS.DECK SRCH <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 09 00 00 00
 #
 name: TAPE1 CHAN/SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 09 00 00 00
 #
 name: TAPE SKIP <<
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 09 00 00 00
 #
 name: # (P-SCAN)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 0a 00 00 00
 #
 name: CASS SELECT A/B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1d 00 00 00
 #
 name: CASS_A-B
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1d 00 00 00
 #
 name: TAPE1 DISC/DECK/ANT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1d 00 00 00
 #
 name: TAPE PRESET DISC +/-
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1d 00 00 00
 #
 name: CASS A/B (SELECT)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 1d 00 00 00
 #
@@ -453,25 +453,25 @@ command: 31 00 00 00
 #
 name: TAPE1 SOURCE POW ON
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 40 00 00 00
 #
 name: TAPE ON (SRCE PWR)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 40 00 00 00
 #
 name: TAPE1 SOURCE POW OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 41 00 00 00
 #
 name: TAPE OFF (SRCH PWR)
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 41 00 00 00
 #
@@ -483,19 +483,19 @@ command: 50 00 00 00
 #
 name: DOLBY SUR
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 50 00 00 00
 #
 name: AC-3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 50 00 00 00
 #
 name: DELAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 52 00 00 00
 #
@@ -531,7 +531,7 @@ command: 53 00 00 00
 #
 name: MENU
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 53 00 00 00
 #
@@ -555,7 +555,7 @@ command: 54 00 00 00
 #
 name: DIGITAL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 54 00 00 00
 #
@@ -573,25 +573,25 @@ command: 54 00 00 00
 #
 name: RF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 55 00 00 00
 #
 name: OPT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 56 00 00 00
 #
 name: OPTICAL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 56 00 00 00
 #
 name: COAX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 57 00 00 00
 #
@@ -639,13 +639,13 @@ command: 5c 00 00 00
 #
 name: OSD
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 5c 00 00 00
 #
 name: CH
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 5d 00 00 00
 #
@@ -663,7 +663,7 @@ command: 5d 00 00 00
 #
 name: GUIDE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 5d 00 00 00
 #
@@ -687,145 +687,145 @@ command: 5d 00 00 00
 #
 name: CH SELECT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 5d 00 00 00
 #
 name: CH. SELECT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 5d 00 00 00
 #
 name: ON SCREEN ^
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 80 00 00 00
 #
 name: ON SCREEN ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 80 00 00 00
 #
 name: UP ARROW
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 80 00 00 00
 #
 name: SELECT ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 80 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 80 00 00 00
 #
 name: ON SCREEN V
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 81 00 00 00
 #
 name: ON SCREEN V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 81 00 00 00
 #
 name: DOWN ARROW
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 81 00 00 00
 #
 name: SELECT V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 81 00 00 00
 #
 name: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 81 00 00 00
 #
 name: ON SCREEN >
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 82 00 00 00
 #
 name: ON SCREEN >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 82 00 00 00
 #
 name: RIGHT ARROW
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 82 00 00 00
 #
 name: SELECT >
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 82 00 00 00
 #
 name: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 82 00 00 00
 #
 name: ON SCREEN <
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 83 00 00 00
 #
 name: ON SCREEN <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 83 00 00 00
 #
 name: LEFT ARROW
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 83 00 00 00
 #
 name: SELECT <
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 83 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 83 00 00 00
 #
 name: ON SCREEN ENTER
 type: parsed
-protocol: Pioneer
+protocol: NEC
 address: 82 00 00 00
 command: 84 00 00 00
 #
 name: ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 84 00 00 00
 #
@@ -837,7 +837,7 @@ command: 84 00 00 00
 #
 name: ON SCREEN ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 84 00 00 00
 #
@@ -855,7 +855,7 @@ command: 84 00 00 00
 #
 name: SELECT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 84 00 00 00
 #
@@ -873,67 +873,67 @@ command: 86 00 00 00
 #
 name: EFFECTS ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 87 00 00 00
 #
 name: EFFECTS V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 88 00 00 00
 #
 name: SURROUND OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 89 00 00 00
 #
 name: SURR_OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 89 00 00 00
 #
 name: OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 89 00 00 00
 #
 name: DIRECT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 89 00 00 00
 #
 name: SURROUND DELAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8a 00 00 00
 #
 name: SURR_DELAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8a 00 00 00
 #
 name: DELAY
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8a 00 00 00
 #
 name: SURR TEST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8c 00 00 00
 #
 name: TEST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8c 00 00 00
 #
@@ -951,127 +951,127 @@ command: 8c 00 00 00
 #
 name: TEST TONE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8c 00 00 00
 #
 name: SURR CENT MODE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8d 00 00 00
 #
 name: CENTER_MODE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8d 00 00 00
 #
 name: CENT MODE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8d 00 00 00
 #
 name: CENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8d 00 00 00
 #
 name: SPEAKER ^
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8e 00 00 00
 #
 name: SPEAKER +
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8e 00 00 00
 #
 name: SPEAKER V
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8f 00 00 00
 #
 name: SPEAKER -
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 8f 00 00 00
 #
 name: SURROUND HALL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 90 00 00 00
 #
 name: SURR_HALL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 90 00 00 00
 #
 name: HALL
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 90 00 00 00
 #
 name: CLUB
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 91 00 00 00
 #
 name: SURROUND THEATER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 92 00 00 00
 #
 name: THEATER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 92 00 00 00
 #
 name: SIM.SURR.
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 93 00 00 00
 #
 name: SIM. SURR
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 93 00 00 00
 #
 name: MATRIX
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 93 00 00 00
 #
 name: SURROUND STADIUM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 94 00 00 00
 #
 name: STADIUM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 94 00 00 00
 #
 name: MOVIE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 95 00 00 00
 #
@@ -1083,7 +1083,7 @@ command: 96 00 00 00
 #
 name: NIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 96 00 00 00
 #
@@ -1101,13 +1101,13 @@ command: 99 00 00 00
 #
 name: CURSOR UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 99 00 00 00
 #
 name: UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 99 00 00 00
 #
@@ -1137,13 +1137,13 @@ command: 9a 00 00 00
 #
 name: CURSOR DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9a 00 00 00
 #
 name: DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9a 00 00 00
 #
@@ -1173,13 +1173,13 @@ command: 9b 00 00 00
 #
 name: STEREO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9b 00 00 00
 #
 name: STEREO/BYPASS
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9b 00 00 00
 #
@@ -1191,73 +1191,73 @@ command: 9c 00 00 00
 #
 name: SURROUND 3 STEREO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9d 00 00 00
 #
 name: SURR_3STEREO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9d 00 00 00
 #
 name: SURROUND 3-CH
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9d 00 00 00
 #
 name: 3-CH
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9d 00 00 00
 #
 name: 3 ST
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9d 00 00 00
 #
 name: 3 CHAN. STEREO
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9d 00 00 00
 #
 name: MOVIE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9e 00 00 00
 #
 name: SURROUND PRO-LOGIC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9f 00 00 00
 #
 name: SURR_PRO-LOGIC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9f 00 00 00
 #
 name: PRO-LOGIC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9f 00 00 00
 #
 name: PROLOGIC
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9f 00 00 00
 #
 name: P/L
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: 9f 00 00 00
 #
@@ -1275,7 +1275,7 @@ command: a0 00 00 00
 #
 name: DTS SUR
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: a0 00 00 00
 #
@@ -1293,7 +1293,7 @@ command: a1 00 00 00
 #
 name: DTS NEO:6
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: a1 00 00 00
 #
@@ -1329,7 +1329,7 @@ command: a8 00 00 00
 #
 name: LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: c1 00 00 00
 #
@@ -1341,7 +1341,7 @@ command: c1 00 00 00
 #
 name: CURSOR LEFT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: c1 00 00 00
 #
@@ -1371,13 +1371,13 @@ command: c2 00 00 00
 #
 name: CURSOR RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: c2 00 00 00
 #
 name: RIGHT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: c2 00 00 00
 #
@@ -1449,7 +1449,7 @@ command: d0 00 00 00
 #
 name: PRESET UP
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: d0 00 00 00
 #
@@ -1509,7 +1509,7 @@ command: d1 00 00 00
 #
 name: PRESET DOWN
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: d1 00 00 00
 #
@@ -1605,7 +1605,7 @@ command: db 00 00 00
 #
 name: 6/8CH
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 82 00 00 00
 command: db 00 00 00
 #

@@ -3,6 +3,6 @@ Version: 1
 #
 name: JUMP BACK
 type: parsed
-protocol: JVC
+protocol: NEC
 address: b3 00 00 00
 command: b3 00 00 00

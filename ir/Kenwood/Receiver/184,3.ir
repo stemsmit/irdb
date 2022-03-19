@@ -51,7 +51,7 @@ command: 1d 00 00 00
 #
 name: DVD INPUT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b8 00 00 00
 command: 1d 00 00 00
 #
@@ -81,7 +81,7 @@ command: 1e 00 00 00
 #
 name: LD INPUT
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: b8 00 00 00
 command: 1e 00 00 00
 #

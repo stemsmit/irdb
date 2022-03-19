@@ -3,12 +3,12 @@ Version: 1
 #
 name: POWER
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 0e 00 00 00
 command: 0c 00 00 00
 #
 name: MUTE
 type: parsed
-protocol: RC5
+protocol: NEC
 address: 0e 00 00 00
 command: 0d 00 00 00

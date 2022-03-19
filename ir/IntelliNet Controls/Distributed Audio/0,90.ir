@@ -15,13 +15,13 @@ command: 02 00 00 00
 #
 name: OFF
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 03 00 00 00
 #
 name: 1
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 04 00 00 00
 #
@@ -45,13 +45,13 @@ command: 06 00 00 00
 #
 name: 7
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 06 00 00 00
 #
 name: MUTE
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 07 00 00 00
 #
@@ -63,13 +63,13 @@ command: 09 00 00 00
 #
 name: 5
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 09 00 00 00
 #
 name: 8
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 0a 00 00 00
 #
@@ -81,7 +81,7 @@ command: 0a 00 00 00
 #
 name: 0
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 0b 00 00 00
 #
@@ -93,7 +93,7 @@ command: 0c 00 00 00
 #
 name: 3
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 0c 00 00 00
 #
@@ -105,13 +105,13 @@ command: 0d 00 00 00
 #
 name: 9
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 0e 00 00 00
 #
 name: ENTER
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 0f 00 00 00
 #
@@ -141,7 +141,7 @@ command: 13 00 00 00
 #
 name: FM
 type: parsed
-protocol: NEC2
+protocol: NEC
 address: 00 00 00 00
 command: 14 00 00 00
 #

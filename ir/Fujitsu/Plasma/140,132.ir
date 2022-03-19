@@ -3,6 +3,6 @@ Version: 1
 #
 name: WIDE 1
 type: parsed
-protocol: Fujitsu
+protocol: NEC
 address: 8c 00 00 00
 command: 13 00 00 00

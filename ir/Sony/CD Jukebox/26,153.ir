@@ -3,6 +3,6 @@ Version: 1
 #
 name: ARTIST MODE
 type: parsed
-protocol: Sony20
+protocol: NEC
 address: 1a 00 00 00
 command: 48 00 00 00

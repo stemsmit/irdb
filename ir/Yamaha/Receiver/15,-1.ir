@@ -3,12 +3,12 @@ Version: 1
 #
 name: VOLUME DOWN
 type: parsed
-protocol: RCA-38(Old)
+protocol: NEC
 address: 0f 00 00 00
 command: 2e 00 00 00
 #
 name: VOLUME UP
 type: parsed
-protocol: RCA-38(Old)
+protocol: NEC
 address: 0f 00 00 00
 command: 2f 00 00 00

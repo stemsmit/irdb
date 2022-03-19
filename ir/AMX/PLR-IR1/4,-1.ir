@@ -3,6 +3,6 @@ Version: 1
 #
 name: 5
 type: parsed
-protocol: Denon{1}
+protocol: NEC
 address: 04 00 00 00
 command: df 00 00 00
