@@ -8,6 +8,8 @@ One of the largest crowd-sourced, manufacturer-independent databases of infrared
 
 Requires [Node.js](https://nodejs.org/en/)
 
+After cloning the repo run `npm install` at the repo root directory.
+
 You can convert the CSV files using any of the following commands:
 
 `npm run convert:inplace`
